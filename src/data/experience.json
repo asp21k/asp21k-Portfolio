@@ -1,0 +1,48 @@
+[
+    {
+        "date": "JUNE 2022 - AUGUST 2022",
+        "title": "Credit Suisse",
+        "subtitle": "Technology Intern",
+        "website": "https://www.credit-suisse.com/us/en.html",
+        "details": [
+            "Created an Admin Dashboard for Rockhopper, a trade query and trade entry system for Credit Suisse's Equity Derivatives trading business, reducing around 2 hours of the system admin's time.",
+            "Conducted a Demonstration Session for the frontend team of the Equity and Derivatives Department on React Query, which was later used for caching data on the SphereUnderlyings portal.",
+            "Improved the User Interface for SphereUnderlyings, a web-based global client intelligence platform, hence enhancing the User Experience in UAT by approximately 15%."
+        ],
+        "techStack": [
+            "ReactJS",
+            "React Query",
+            "Material UI"
+        ]
+    },
+    {
+        "date": "DECEMBER 2021 - MARCH 2022",
+        "title": "Pingolearn",
+        "subtitle": "Mobile App Development Intern",
+        "website": "https://pingolearn.com/",
+        "details": [
+            "Developed and maintained Pingolearn, a language learning app in Flutter.",
+            "Designed assessments for hiring candidates for full-time roles."
+        ],
+        "techStack": [
+            "Flutter",
+            "Firebase",
+            "Figma"
+        ]
+    },
+    {
+        "date": "AUGUST 2021 - NOVEMBER 2021",
+        "title": "Manastik",
+        "subtitle": "Software Engineer Intern",
+        "website": "https://manastik.com/",
+        "details": [
+            "Digitalized the Hindi Mental State Examination (HMSE) by developing the Dementia Active Diagnosis and Tracking (DADT) app reducing paperwork by 100%."
+        ],
+        "techStack": [
+            "Flutter",
+            "NodeJS",
+            "DynamoDB",
+            "AWS"
+        ]
+    }
+]
