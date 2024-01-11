@@ -41,7 +41,7 @@
     },
     {
         "name": "Express JS",
-        "url": "/public/icons8-express-js-96.svg"
+        "url": "/icons8-express-js-96.svg"
     },
     {
         "name": "React JS",
@@ -49,7 +49,7 @@
     },
     {
         "name": "Next JS",
-        "url": "/public/nextjs-svgrepo-com.svg"
+        "url": "/nextjs-svgrepo-com.svg"
     },
     {
         "name": "Tailwind",
