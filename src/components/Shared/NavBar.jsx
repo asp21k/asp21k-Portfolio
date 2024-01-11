@@ -68,16 +68,16 @@ export default function NavBar() {
   ];
 
   return (
-    <div className="sticky bg-slate-950 bg-opacity-80 z-50 top-0 py-4 backdrop-filter backdrop-blur  xl:mx-auto flex flex-wrap xl:flex-nowrap items-center justify-between px-1 xl:px-8">
+    <div className="sticky bg-slate-950 bg-opacity-80 z-50 top-0 py-3 backdrop-filter backdrop-blur  xl:mx-auto flex flex-wrap xl:flex-nowrap items-center justify-between px-1 xl:px-7">
       <NavLink to="/">
         <img
           src={logo}
-          className="max-h-12 scale-[125%] ml-4 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-500 ease-in-out transform hover:scale-105"
+          className="max-h-10 scale-[125%] ml-3 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-500 ease-in-out transform hover:scale-105"
           alt="Logo"
         />
       </NavLink>
       <button
-        className="text-white inline-flex py-3 hover:bg-slate-800 rounded h-12 w-12 justify-center align-middle xl:hidden"
+        className="text-white inline-flex py-2 hover:bg-slate-800 rounded h-10 w-10 justify-center align-middle xl:hidden"
         onClick={handleClick}
       >
         {clicked ? <TimesIcon /> : <BarsIcon />}
@@ -99,7 +99,7 @@ export default function NavBar() {
               className={
                 location.pathname === item.link
                   ? `text-orange-500 font-primary font-medium text-lg px-5 text-center mt-6 xl:my-auto`
-                  : `text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-orange-500 mt-6 xl:my-auto`
+                  : `text-white font-primary font-medium text-sm px-5 text-center transition duration-500 ease-in-out hover:text-orange-500 mt-6 xl:my-auto`
               }
             >
               {item.title}
