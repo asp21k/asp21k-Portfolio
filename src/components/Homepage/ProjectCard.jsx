@@ -14,6 +14,7 @@ export const ProjectCard = (props) => {
     deployment,
     techStack,
     sysArch,
+    status,
   } = props.project;
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,15 +24,15 @@ export const ProjectCard = (props) => {
   };
 
   return (
-    <div className="pt-4 w-full max-w-lg lg:w-1/2 xl:w-1/3 mt-4">
-      <div className="flex flex-col h-full mx-3 bg-gray-800 shadow-2xl rounded-lg transition ease-in-out transform hover:scale-105 hover:-translate-y-1 duration-300">
+    <div className="pt-4 w-full max-w-lg lg:w-1/2 xl:w-1/3 mt-4 ">
+      <div className="flex flex-col h-full mx-3 bg-slate-900/40 shadow-2xl rounded-lg transition ease-in-out transform hover:scale-105 hover:-translate-y-1 duration-300 hover:shadow-orange-700/50">
         <img
           src={image}
           alt={name}
           className="w-full object-cover h-64 rounded-lg rounded-b-none"
         />
         <div className="px-4 py-2 mt-2">
-          <h2 className="text-center font-bold font-primary text-2xl text-blue-500">
+          <h2 className="text-center font-bold font-primary text-2xl text-orange-600">
             {name}
           </h2>
           <p className="text-center text-sm text-secondary text-gray-300 px-2 py-2">
@@ -43,7 +44,7 @@ export const ProjectCard = (props) => {
           {techStack.map((stack, index) => {
             return (
               <span
-                className="inline-block rounded-full bg-gray-700 mx-1 my-auto font-secondary font-normal text-gray-300 text-center px-4 py-1 text-sm"
+                className="inline-block rounded-full bg-slate-700 mx-1 my-auto font-secondary font-normal text-gray-300 text-center px-4 py-1 text-sm"
                 key={index}
               >
                 {stack}
@@ -126,7 +127,7 @@ export const ProjectCard = (props) => {
                   </button>
                 </div>
                 <div className="h-full my-auto">
-                  <h1 className="font-bold font-primary text-center text-2xl text-gray-300 hover:text-yellow-400 transition duration-500 ease-in-out -mt-8 mb-6 mx-16">
+                  <h1 className="font-bold font-primary text-center text-2xl text-gray-300 hover:text-orange-400 transition duration-500 ease-in-out -mt-8 mb-6 mx-16">
                     System Architecture
                   </h1>
                   <iframe
@@ -138,6 +139,11 @@ export const ProjectCard = (props) => {
               </Modal>
             </>
           ) : null}
+          {status ? (
+            <p className="text-center font-secondary font-normal text-orange-600 text-sm hover:scale-110">
+              {status}
+            </p>
+          ): null}
         </div>
       </div>
     </div>

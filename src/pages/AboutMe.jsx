@@ -20,8 +20,7 @@ export default function AboutMe() {
         <div>
           <p className="mx-auto w-full lg:w-3/4 mt-4 font-secondary font-normal text-gray-400 text-xl text-center">
             I am a Computer Engineering undergraduate at Pune Institute of
-            Computer Technology, currently working in the fields of Mobile App
-            Development and Web Development.
+            Computer Technology, currently working in the fields of Full Stack Web Development and UI/UX Design.
           </p>
           <p className="mx-auto w-full lg:w-3/4 mt-2 font-secondary font-normal text-gray-400 text-xl text-center">
             A creative Graphic Designer and Developer. Skilled at writing
@@ -37,7 +36,7 @@ export default function AboutMe() {
       <Education />
       <Experience />
       <AllProjects />
-      <Hackathons />
+      {/* <Hackathons /> */}
       <Organizations />
     </div>
   );

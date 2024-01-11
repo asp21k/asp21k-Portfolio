@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .heading-main {
-  @apply text-center mt-2 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400;
+  @apply text-center mt-2 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-orange-600;
 }
 
 .heading-tagline {
@@ -11,5 +11,8 @@
 }
 
 .circled-icon {
-  @apply h-10 w-10 fill-current text-gray-400 hover:text-blue-500 border p-2 border-gray-400 rounded-full hover:border-blue-500;
+  @apply h-10 w-10 fill-current text-gray-400 hover:text-orange-600 border p-2 border-gray-400 rounded-full hover:border-orange-600;
+}
+.temo{
+  color:#ff5100
 }

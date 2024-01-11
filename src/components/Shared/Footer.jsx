@@ -5,34 +5,14 @@ import React from "react";
 // import axios from "axios";
 
 export default function Footer() {
-  // const [visits, setVisits] = useState(0);
-
-  // const getVisits = async () => {
-  //   let config = {
-  //     method: "POST",
-  //     url: "https://rohin-portfolio-api.herokuapp.com/visits/",
-  //   };
-
-  //   await axios(config)
-  //     .then((res) => {
-  //       setVisits(res.data.visits);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // };
-
-  // useEffect(() => {
-  //   getVisits();
-  //   // eslint-disable-next-line
-  // }, []);
+  
 
   return (
     <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-dashed border-t border-gray-700 mt-8 py-4 justify-center items-center md:justify-between md:flex-row">
       <div className="flex space-x-4 md:space-x-8 order-1 md:order-2">
-        <a href="https://github.com/RohinBhat" target="_blank" rel="noreferrer">
+        <a href="https://github.com/asp21k" target="_blank" rel="noreferrer" className="hover:fill-orange-600">
           <svg
-            className="circled-icon"
+            className="circled-icon hover:fill-orange-600"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 50 50"
             width="50px"
@@ -42,12 +22,12 @@ export default function Footer() {
           </svg>
         </a>
         <a
-          href="https://www.linkedin.com/in/rohinbhat/"
+          href="https://www.linkedin.com/in/atharva-pardeshi-01054b237/"
           target="_blank"
           rel="noreferrer"
         >
           <svg
-            className="circled-icon"
+            className="circled-icon hover:fill-orange-600"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 30 30"
             width="30px"
@@ -57,12 +37,12 @@ export default function Footer() {
           </svg>
         </a>
         <a
-          href="https://www.instagram.com/baronhere/"
+          href="https://www.instagram.com/asp21k/"
           target="_blank"
           rel="noreferrer"
         >
           <svg
-            className="circled-icon"
+            className="circled-icon hover:fill-orange-600"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             width="30px"
@@ -71,7 +51,7 @@ export default function Footer() {
             <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z" />
           </svg>
         </a>
-        <a
+        {/* <a
           href="https://baronhere.medium.com/"
           target="_blank"
           rel="noreferrer"
@@ -85,14 +65,14 @@ export default function Footer() {
           >
             <path d="M7 6A7 7 0 107 20 7 7 0 107 6zM18 6.5A3 6.5 0 1018 19.5 3 6.5 0 1018 6.5zM23 8A1 5 0 1023 18 1 5 0 1023 8z"></path>
           </svg>
-        </a>
+        </a> */}
         <a
-          href="mailto:bhatrohin003@gmail.com"
+          href="mailto:atharvap2123@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
           <svg
-            className="circled-icon"
+            className="circled-icon hover:fill-orange-600"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             height="24px"
@@ -109,7 +89,7 @@ export default function Footer() {
           <span className="font-thin" role="img" aria-label="emoji">
             ❤️
           </span>{" "}
-          by Rohin Bhat.
+          by Atharva Pardeshi.
         </p>
         {/* <p className="font-secondary font-semibold text-gray-500 text-center md:text-left text-md">
           Website Visits: {visits}

@@ -30,7 +30,7 @@ function App() {
         pauseOnHover
         theme="dark"
       />
-      <div className="w-11/12 md:w-full mx-auto bg-black ">
+      <div className="w-full p-2 md:w-full mx-auto bg-black ">
         <ScrollToTop>
           <NavBar />
           <Routes>

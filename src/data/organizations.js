@@ -1,30 +1,28 @@
-import gdscLogo from "../images/gdsc.png";
+
 import pascLogo from "../images/pasc.png";
 import pictorealLogo from "../images/pictoreal.png";
 
 export const organizationsData = [
+  
   {
-    date: "FEBRUARY 2022 - PRESENT",
-    position: "Secretary",
-    name: "PICT ACM Student Chapter",
-    logo: pascLogo,
-  },
-  {
-    date: "SEPTEMBER 2022 - PRESENT",
-    position: "Joint Secretary",
-    name: "Pictoreal, PICT",
-    logo: pictorealLogo,
-  },
-  {
-    date: "SEPTEMBER 2021 - SEPTEMBER 2022",
+    date: "JULY 2023 - PRESENT",
     position: "Design Head",
     name: "Pictoreal, PICT",
     logo: pictorealLogo,
+    link:"https://www.pictoreal.in/TeamMembers/OurTeam.html"
   },
   {
-    date: "JULY 2021 - JUNE 2022",
-    position: "GDSC Lead",
-    name: "Google Developer Student Clubs - PICT",
-    logo: gdscLogo,
+    date: "JULY 2023 - PRESENT",
+    position: "Photography Head",
+    name: "Pictoreal, PICT",
+    logo: pictorealLogo,
+    link:"https://www.pictoreal.in/TeamMembers/OurTeam.html"
+  },
+  {
+    date: "JULY 2023 - PRESENT",
+    position: "Volunteer",
+    name: "PICT ACM Student Chapter",
+    logo: pascLogo,
+    link:"https://pict.acm.org/"
   },
 ];

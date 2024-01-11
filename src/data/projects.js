@@ -1,86 +1,59 @@
-import chatapp from "../images/chat-app.png";
+
+import picto from "/pictodemo.png";
+import portfolio from "../images/portfolio-demo.png";
 import defaultImage from "../images/default-project.png";
-import ecotech from "../images/ecotech.png";
-import fastnfresh from "../images/fast-n-fresh.jpg";
-import noteitdown from "../images/note-it-down.jpg";
-import radiance from "../images/radiance21.jpg";
+
 
 export const projectsData = [
   {
-    name: "EcoTech",
+    name: "PICTOREAL Main Website",
     description:
-      "EcoTech is a one stop e-waste management solution. It was developed as a part of the WCE Hackathon. It consists of a mobile app, the admin dashboard, the recycler's dashboard, a machine learning model and the related backend microservices.",
-    image: ecotech,
-    code: "https://github.com/EcoTech-WCE-Hackathon/EcoTech",
+    "Contributed to the enhancement of the PICTOREAL website, the official magazine designing and publishing club of PICT, incorporating the 'Odyssey' theme for Vol 25. Utilized HTML, CSS, and BOOTSTRAP to revamp the frontend, introducing visually appealing animations and thematic elements. Addressed website bugs for a smoother user experience. The project reflects a collaborative effort in creating an engaging UI/UX for the community.",
+    image: picto,
+    code: "",
+    deployment: "https://pictoreal.in/",
     techStack: [
-      "Flutter",
-      "Next JS",
-      "Django REST Framework",
-      "PostgreSQL",
-      "Docker",
-      "Kubernetes",
+      "HTML5",
+      "CSS",
+      "BOOTSTRAP",
     ],
-    sysArch: "https://sysArch.burhanuddinmerchant.me/ecotech.html",
+    sysArch: "",
   },
   {
-    name: "Fast 'n fresh",
+    name: "Portfolio Website",
     description:
-      "An E-commerce grocery delivery application with a focus on simplicity and speed. Has separate login for the user, the admin and the delivery boy.",
-    image: fastnfresh,
-    code: "https://github.com/Fast-n-fresh/fast-n-fresh-app",
+      "Created a simple and functional portfolio website using ReactJS and Tailwind CSS, hosted on Netlify. The site is designed to showcase my various projects and skills. Take a look to learn more about what I've been working on!",
+    image: portfolio,
+    code: "https://github.com/asp21k/asp21k-Portfolio",
     deployment:
-      "https://github.com/Fast-n-fresh/fast-n-fresh-app/releases/download/v1.0-beta/app-release.apk",
+      "https://asp21k-portfolio.netlify.app/",
     techStack: [
-      "Flutter",
-      "NodeJS",
-      "MongoDB",
-      "Docker",
-      "Cloudinary",
-      "Terraform",
+      "HTML5",
+      "CSS",
+      "ReactJS",
+      "TailwindCSS",
+      "Vite"
     ],
-    sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
+    sysArch: "",
   },
   {
-    name: "Radiance '21 App",
+    name: "PICT-O-BLOGS",
     description:
-      "A registration app for the events conducted in Radiance '21 and deployed it on Play Store. Hosted by PICT ACM Student Chapter - Women in Computing, Radiance is a high spirited event consisting of various technical and non-technical events.",
-    image: radiance,
-    // website: "https://radiance21.in/",
+      "Developing a blogging website for PICTOREAL club members to share their thoughts, experiences and learnings. The website is built using the MERN stack. The project is currently in progress, and will be deployed soon. Stay tuned for more updates! :)",
+    image: defaultImage,
+    code: "",
     deployment:
-      "https://play.google.com/store/apps/details?id=com.pasc.radiance2021",
-    techStack: ["Flutter", "NodeJS", "Firebase Cloud Messaging"],
-  },
-  {
-    name: "Chat App",
-    description:
-      "A room / group chat app that can handle bi-directional conversations. Has a facility to share location. Can handle multiple rooms at a time.",
-    image: chatapp,
-    code: "https://github.com/RohinBhat/node-chat-app",
-    deployment: "https://baron-chat-app.herokuapp.com/",
+      "",
     techStack: [
+      "ReactJS",
+      "TailwindCSS",
+      "Vite",
       "NodeJS",
       "ExpressJS",
-      "Socket.io",
-      "HTML",
-      "CSS",
-      "Handlebars",
+      "MongoDB",
     ],
-  },
-  {
-    name: "Task Manager API",
-    description:
-      "A Task Manager REST API with basic CRUD operations for users and their tasks created with Node JS. Follows Model-View-Controller (MVC) Architecture",
-    image: defaultImage,
-    code: "https://github.com/RohinBhat/task-manager-api",
-    deployment: "https://baron-task-manager-api.herokuapp.com/",
-    techStack: ["NodeJS", "ExpressJS", "MongoDB"],
-  },
-  {
-    name: "Note It Down",
-    description:
-      "A Note-taking app along with a to-do list (Tasks) functionality, Note It Down is an app developed for Android devices using Firebase in the backend.",
-    image: noteitdown,
-    code: "https://github.com/RohinBhat/NoteItDown",
-    techStack: ["Android", "Firebase"],
-  },
+    sysArch: "",
+    status: "In Progress"
+  }
+ 
 ];

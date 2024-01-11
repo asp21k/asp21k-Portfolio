@@ -23,12 +23,12 @@ export default function Experience() {
             <VerticalTimelineElement
               key={index}
               className="vertical-timeline-element--education"
-              contentStyle={{ background: "#1F2937", color: "#fff" }}
+              contentStyle={{ background: "rgba(15, 23, 42, 0.6)", color: "#ea580c" }}
               contentArrowStyle={{ borderRight: "7px solid  #1F2937" }}
               date={experience.date}
               dateClassName="font-secondary font-medium text-white"
               iconStyle={{
-                background: "#3b82f6",
+                background: "#ea580c",
                 color: "#1F2937",
               }}
               icon={
@@ -42,7 +42,7 @@ export default function Experience() {
               }
             >
               <div className="flex flex-row justify-between gap-8">
-                <h3 className="mb-2 font-primary text-xl font-bold text-blue-500">
+                <h3 className="mb-2 font-primary text-xl font-bold text-orange-600">
                   {experience.title}
                 </h3>
                 {experience.website ? (
@@ -82,7 +82,7 @@ export default function Experience() {
         })}
         <VerticalTimelineElement
           iconStyle={{
-            background: "#3b82f6",
+            background: "#ea580c",
             color: "#1F2937",
           }}
           icon={

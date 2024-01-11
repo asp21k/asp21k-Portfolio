@@ -115,7 +115,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="overflow-hidden bg-gray-800 rounded-lg shadow-md items-center w-auto xl:w-5/6 mx-auto py-6 my-8">
+    <div className="overflow-hidden bg-slate-900/50 rounded-lg shadow-md items-center w-auto xl:w-5/6 mx-auto py-6 my-8">
       <Fade up cascade>
         <div className="w-5/6 mx-auto">
           <div>
@@ -127,9 +127,9 @@ export default function Contact() {
           </h1>
           <div className="mt-8 space-y-4 lg:flex lg:space-x-8 lg:space-y-0">
             <div className="mx-auto flex-grow transition duration-500 ease-in-out transform hover:scale-105">
-              <a href="mailto:bhatrohin003@gmail.com" rel="noreferrer">
+              <a href="mailto:atharvap2123@gmail.com" rel="noreferrer">
                 <svg
-                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-blue-500 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
+                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-orange-600 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
                 >
@@ -139,15 +139,15 @@ export default function Contact() {
                   Mail Me:
                 </p>
                 <p className="text-center text-gray-400 font-secondary font-medium text-lg">
-                  bhatrohin003@gmail.com
+                  atharvap2123@gmail.com
                 </p>
               </a>
             </div>
 
             <div className="mx-auto flex-grow transition duration-500 ease-in-out transform hover:scale-105">
-              <a href="tel:+91 9146458797" rel="noreferrer">
+              <a href="tel:+91 8767379887" rel="noreferrer">
                 <svg
-                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-blue-500 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
+                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-orange-600 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
                 >
@@ -157,7 +157,7 @@ export default function Contact() {
                   Phone Me:
                 </p>
                 <p className="text-center text-gray-400 font-secondary font-medium text-lg">
-                  +91 9146458797
+                  +91 8767379887
                 </p>
               </a>
             </div>
@@ -169,7 +169,7 @@ export default function Contact() {
                 rel="noreferrer"
               >
                 <svg
-                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-blue-500 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
+                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-orange-600 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
@@ -179,7 +179,7 @@ export default function Contact() {
                   Meet Me:
                 </p>
                 <p className="text-center text-gray-400 font-secondary font-medium text-lg">
-                  Aurangabad, Maharashtra
+                  Pune, Maharashtra
                 </p>
               </a>
             </div>
@@ -194,8 +194,8 @@ export default function Contact() {
                   <input
                     className={
                       error.nameError === ""
-                        ? "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600"
-                        : "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600 border-2 border-red-500"
+                        ? "appearance-none block bg-slate-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-slate-600"
+                        : "appearance-none block bg-slate-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-slate-600 border-2 border-red-500"
                     }
                     id="name"
                     name="name"
@@ -208,14 +208,14 @@ export default function Contact() {
                       {error.nameError}
                     </p>
                   )}
-                  <label className="text-gray-400 font-secondary font-medium mb-2 text-lg mt-5">
+                  <label className="text-slate-400 font-secondary font-medium mb-2 text-lg mt-5">
                     Email
                   </label>
                   <input
                     className={
                       error.emailError === ""
-                        ? "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600"
-                        : "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600 border-2 border-red-500"
+                        ? "appearance-none block bg-slate-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-slate-600"
+                        : "appearance-none block bg-slate-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-slate-600 border-2 border-red-500"
                     }
                     id="email"
                     name="email"
@@ -234,8 +234,8 @@ export default function Contact() {
                   <input
                     className={
                       error.phoneError === ""
-                        ? "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600"
-                        : "appearance-none block bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-gray-600 border-2 border-red-500"
+                        ? "appearance-none block bg-slate-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-slate-600"
+                        : "appearance-none block bg-slate-700 text-white font-primary rounded-md py-4 px-4 leading-tight focus:outline-none focus:bg-slate-600 border-2 border-red-500"
                     }
                     id="phone"
                     name="phone"
@@ -257,8 +257,8 @@ export default function Contact() {
                     rows="8"
                     className={
                       error.messageError === ""
-                        ? "appearance-none block h-full bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight resize-none focus:outline-none focus:bg-gray-600"
-                        : "appearance-none block h-full bg-gray-700 text-white font-primary rounded-md py-4 px-4 leading-tight resize-none focus:outline-none focus:bg-gray-600 border-2 border-red-500"
+                        ? "appearance-none block h-full bg-slate-700 text-white font-primary rounded-md py-4 px-4 leading-tight resize-none focus:outline-none focus:bg-slate-600"
+                        : "appearance-none block h-full bg-slate-700 text-white font-primary rounded-md py-4 px-4 leading-tight resize-none focus:outline-none focus:bg-slate-600 border-2 border-red-500"
                     }
                     type="text"
                     id="message"
@@ -274,7 +274,7 @@ export default function Contact() {
                 </div>
               </div>
               <button
-                className="w-full my-2 bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-8"
+                className="w-full my-2 bg-orange-600 hover:bg-orange-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-8"
                 type="submit"
               >
                 Send

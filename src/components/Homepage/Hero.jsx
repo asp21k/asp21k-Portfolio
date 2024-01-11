@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import photo from "../../images/my.png";
+import  style from "./hero.module.css";
 
 export default function Hero() {
   return (
-    <div className="mt-10 grid grid-cols-1 lg:grid-cols-2">
+    <div className="mt-10 W-full grid grid-cols-1 lg:grid-cols-2">
       <Fade>
         <div className="my-auto px-5 flex flex-col justify-start md:justify-center lg:justify-start">
           <h1 className="font-primary font-bold text-white text-5xl text-left">
@@ -15,16 +16,13 @@ export default function Hero() {
           <h1 className="mt-2 font-primary font-bold text-white text-5xl text-left">
             I'm Atharva Pardeshi
           </h1>
-          <div className="mt-4 font-primary font-medium text-orange-500 text-4xl text-left">
+          <div className="mt-4 font-primary font-medium hidden md:block text-orange-500 text-2xl md:text-4xl text-left">
             <Typewriter
               options={{
                 loop: true,
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Full Stack Developer")
-                  .pauseFor(500)
-                  .deleteAll()
                   .typeString("Web Developer")
                   .pauseFor(500)
                   .deleteAll()
@@ -40,8 +38,8 @@ export default function Hero() {
           </div>
           <h1 className="mt-4 font-secondary font-normal text-gray-400 text-xl text-left">
             I am a Computer Engineering Undergraduate at Pune Institute of
-            Computer Technology with a keen interest in the field of Mobile App
-            Development, Web Development and Graphic Design.
+            Computer Technology with a keen interest in the field of Full Stack
+            Development, Frontend Development and Graphic Design.
           </h1>
           <div className="flex flex-col lg:flex-row lg:justify-around">
             <Link to="/resume">
@@ -58,12 +56,14 @@ export default function Hero() {
         </div>
       </Fade>
       <Fade>
-        <div className="px-5 flex flex-col items-center">
+        <div className={style.container +" px-5 flex flex-col items-center rounded-full mt-[3.5rem] "}>
+          <div className={style.GradientBorder+" flex flex-col items-center"}>
           <img
             src={photo}
-            className="overflow-hidden rounded-full shadow-2xl mt-8 lg:mt-0"
-            alt="Rohin Bhat"
+            className="overflow-hidden w-[39rem] rounded-full shadow-2xl  mt-0"
+            alt="Atharva pardeshi"
           />
+          </div>
         </div>
       </Fade>
     </div>

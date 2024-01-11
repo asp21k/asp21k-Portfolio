@@ -44,7 +44,7 @@ export default function Recommendations() {
         <h1 className="heading-tagline">WHAT MY SENIORS SAY</h1>
         <div>
           <a
-            href="https://www.linkedin.com/in/rohin-bhat-a2a9a5192/"
+            href="https://www.linkedin.com/in/atharva-pardeshi-01054b237/"
             target="_blank"
             rel="noreferrer"
           >

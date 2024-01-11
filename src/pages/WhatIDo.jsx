@@ -4,12 +4,12 @@ import React from "react";
 export default function WhatIDo() {
   return (
     <div className="my-6">
-      <div className="rounded-lg bg-gray-800 flex flex-col lg:flex-row">
+      <div className="rounded-lg bg-slate-900/50 flex flex-col lg:flex-row">
         <div className="p-8 w-full lg:w-1/2 border border-l-0 border-t-0 border-r-0 border-b-2 lg:border-b-0 lg:border-r-2 border-gray-700 border-dashed">
           <Fade up cascade>
             <div>
               <svg
-                className="h-28 w-28 fill-current text-blue-500 mx-auto"
+                className="h-28 w-28 fill-current text-orange-600 mx-auto"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="7 7 50 50"
               >
@@ -23,13 +23,13 @@ export default function WhatIDo() {
               <h3 className="mt-4 font-secondary text-lg font-normal text-gray-400 text-center">
                 I like to design beautiful things that are easy to use.
               </h3>
-              <h3 className="mt-12 font-secondary text-lg font-medium text-blue-500 text-center">
+              <h3 className="mt-12 font-secondary text-lg font-medium text-orange-600 text-center">
                 Things I Design:
               </h3>
               <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
                 UI/UX, Web and Mobile Design, Static Graphic Design
               </p>
-              <h3 className="mt-12 font-secondary text-lg font-medium text-blue-500 text-center">
+              <h3 className="mt-12 font-secondary text-lg font-medium text-orange-600 text-center">
                 Design Tools:
               </h3>
               <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
@@ -53,7 +53,7 @@ export default function WhatIDo() {
         <Fade up cascade>
           <div className="p-8 w-full lg:w-1/2">
             <svg
-              className="h-28 w-28 fill-current text-blue-500 mx-auto"
+              className="h-28 w-28 fill-current text-orange-600 mx-auto"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
             >
@@ -69,23 +69,17 @@ export default function WhatIDo() {
             <h3 className="mt-4 font-secondary text-lg font-normal text-gray-400 text-center">
               I like to code things from scratch and bring ideas to life.
             </h3>
-            <h3 className="mt-12 font-secondary text-lg font-medium text-blue-500 text-center">
+            <h3 className="mt-12 font-secondary text-lg font-medium text-orange-600 text-center">
               Languages I Speak:
             </h3>
             <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              C++, Dart, Java, JavaScript, HTML, CSS, SQL
+              C++, Python, Java, JavaScript, HTML, CSS, SQL. 
             </p>
-            <h3 className="mt-12 font-secondary text-lg font-medium text-blue-500 text-center">
+            <h3 className="mt-12 font-secondary text-lg font-medium text-orange-600 text-center">
               Dev Tools:
             </h3>
             <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              Flutter
-            </p>
-            <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              Android Studio
-            </p>
-            <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              React Native
+              Visual Studio Code
             </p>
             <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
               React
@@ -95,6 +89,9 @@ export default function WhatIDo() {
             </p>
             <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
               Git
+            </p>
+            <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
+              Github
             </p>
           </div>
         </Fade>

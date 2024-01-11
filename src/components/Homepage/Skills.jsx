@@ -13,7 +13,8 @@ export default function Skills() {
         </div>
       </Fade>
       <Fade up>
-        <div className="mt-8 py-4 px-4 bg-gray-800 items-center justify-center shadow-2xl rounded-md">
+        <div className="mt-8 py-4 px-4  bg-gray-600 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100
+ items-center justify-center shadow-2xl ">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
             {skillsData.map((skill, index) => {
               return <SkillCard details={skill} key={index} />;

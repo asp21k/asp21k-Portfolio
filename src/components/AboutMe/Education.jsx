@@ -14,7 +14,7 @@ export default function Education() {
     <div className="my-8">
       <Fade up>
         <div>
-          <h1 className="heading-main mb-8">Education</h1>
+          <h1 className="heading-main mb-8 hover:text-orange-600">Education</h1>
         </div>
       </Fade>
       <VerticalTimeline>
@@ -23,17 +23,17 @@ export default function Education() {
             <VerticalTimelineElement
               key={index}
               className="vertical-timeline-element--education"
-              contentStyle={{ background: "#1F2937", color: "#fff" }}
+              contentStyle={{ background: "rgba(15, 23, 42, 0.6)", color: "#fff",  }}
               contentArrowStyle={{ borderRight: "7px solid  #1F2937" }}
               date={education.date}
               dateClassName="font-secondary font-medium text-white"
               iconStyle={{
-                background: "#3b82f6",
+                background: "#ea580c",
                 color: "#1F2937",
               }}
               icon={
                 <svg
-                  className="mx-auto fill-current text-gray-900"
+                  className="mx-auto fill-current text-slate-900"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
                 >
@@ -41,7 +41,7 @@ export default function Education() {
                 </svg>
               }
             >
-              <h3 className="mb-2 font-primary text-xl font-bold text-blue-500">
+              <h3 className="mb-2 font-primary text-xl font-bold text-orange-600">
                 {education.title}
               </h3>
               <h4 className="mb-4 font-secondary text-md font-normal text-white">
@@ -55,7 +55,7 @@ export default function Education() {
         })}
         <VerticalTimelineElement
           iconStyle={{
-            background: "#3b82f6",
+            background: "#ea580c",
             color: "#1F2937",
           }}
           icon={

@@ -1,20 +1,12 @@
 [
     {
-        "name": "Smart India Hackathon",
-        "position": "Grand Finalists",
-        "teamName": "Team ASMR",
-        "solution": "Quizzle.",
-        "date": "AUGUST 2022",
-        "description": "Smart India Hackathon 2022 was a nationwide hackathon by the India Government. Developed an end-to-end crowd sourcing platform for creating large question banks. \n Placed in the Top 5 teams for the Problem Statement ID RK783 out of the 50+ teams.",
-        "website": "https://sih.gov.in/"
-    },
-    {
-        "name": "WCE Hackathon",
-        "position": "Winners",
-        "teamName": "Team BurhanHere",
-        "solution": "EcoTech",
-        "date": "JUNE 2022",
-        "description": "WCE Hackathon was organised by Walchand College of Engineering, Sangli and WCE ACM Student Chapter. Developed a mobile app, admin dashboard, recycler's dashboard, the machine learning model and the related backend microservices in the span of 4 days as a part of the hackathon. \n Won the hackathon out of the 100+ teams",
-        "website": "https://unstop.com/hackathon/wce-hackathon-2022-walchand-college-of-engineering-wce-sangli-171698"
+        "name": "",
+        "position": "",
+        "teamName": "",
+        "solution": "",
+        "date": "",
+        "description": "",
+        "website": ""
     }
+    
 ]

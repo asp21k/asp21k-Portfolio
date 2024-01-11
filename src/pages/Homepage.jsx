@@ -7,11 +7,11 @@ import Skills from "../components/Homepage/Skills";
 
 export default function Homepage() {
   return (
-    <div className="container">
+    <div className="container mx-auto overflow-hidden">
       <Hero />
       <Skills />
       <Projects />
-      <Recommendations />
+      
       <CollabCTA />
     </div>
   );

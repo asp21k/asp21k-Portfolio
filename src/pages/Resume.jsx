@@ -3,22 +3,22 @@ import React from "react";
 
 export default function Resume() {
   const resumeUrl =
-    "https://drive.google.com/file/d/1mzfRTLWKqOpMLxteqAvHvhEo2q3tsDxu/preview";
+    "https://drive.google.com/file/d/1xvQ92DwpBdLt_3ezLwODQc4TPvEKPnP6/preview";
   return (
     <div className="shadow-md max-w-5xl mx-auto mt-16 overflow-hidden rounded-lg divide-gray-800">
       <div className="h-full">
         <div className="bg-gray-800 py-6 px-6 flex justify-between items-center">
           <Fade>
             <h1 className="text-gray-300 text-md md:text-xl font-semibold font-secondary">
-              Resume | Rohin Bhat
+              Resume | Atharva Pardeshi
             </h1>
           </Fade>
           <a
-            href="https://drive.google.com/u/1/uc?id=1mzfRTLWKqOpMLxteqAvHvhEo2q3tsDxu&export=download"
-            download
+            href="https://drive.google.com/uc?export=download&id=1xvQ92DwpBdLt_3ezLwODQc4TPvEKPnP6"
+            target="_blank"
           >
             <Fade>
-              <div className="flex flex-row bg-blue-500 hover:bg-blue-700 text-white font-secondary py-2 px-4 rounded-md ">
+              <div className="flex flex-row bg-orange-600 hover:bg-orange-700 text-white font-secondary py-2 px-4 rounded-md ">
                 <svg
                   className="fill-current text-white -ml-1 mr-3 h-5 w-5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -37,8 +37,8 @@ export default function Resume() {
           </a>
         </div>
         <iframe
-          title="Rohin Bhat | Resume"
-          className="w-full h-screen mx-auto"
+          title="Atharva Pardeshi | Resume"
+          className="w-full h-screen mx-auto bg-blue-800"
           src={resumeUrl}
         ></iframe>
       </div>

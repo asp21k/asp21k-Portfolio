@@ -1,13 +1,90 @@
 <!doctype html>
-<html lang="en">
+
+<html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta charset="utf-8" />
+    <meta property="og:title" content="Portfolio | Atharva Pardeshi" />
+    <meta
+      name="image"
+      property="og:image"
+      content="%PUBLIC_URL%/thumbnail.png"
+    />
+    <meta name="author" content="Atharva Pardeshi" />
+    <meta
+      property="og:description"
+      content="I am a Computer Engineering Undergraduate at Pune Institute of
+      Computer Technology with a keen interest in the field of Full Stack
+      Development, Frontend Development and Graphic Design."
+    />
+    <!-- <meta property="og:url" content="" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/AP-128.png" />
+    <link rel="icon" type="image/png" sizes="128x128" href="/AP-128.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/AP-64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/AP-32.png" />
+    
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" /> -->
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Portfolio | Atharva Pardeshi</title>
   </head>
-  <body>
+  <body class="bg-gray-900">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if (window.innerWidth > 1 ) { // Adjust the width as needed
+        (function() {
+          var script = document.createElement('script');
+          script.src = 'https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js';
+          script.setAttribute('data-name', 'BMC-Widget');
+          script.setAttribute('data-cfasync', 'false');
+          script.setAttribute('data-id', 'asp21k');
+          script.setAttribute('data-description', 'Support me on Buy me a coffee!');
+          script.setAttribute('data-message', 'Hi there. You can buy me a coffee to support!');
+          script.setAttribute('data-color', '#ff5100');
+          script.setAttribute('data-position', 'Right');
+          script.setAttribute('data-latest-msg', 'Thanks to [latest supporter] for the support!');
+          script.setAttribute('data-send-email', 'true');
+          script.setAttribute('data-x_margin', '25');
+          script.setAttribute('data-y_margin', '25');
+          document.head.appendChild(script);
+        })();
+      }
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-221042328-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-221042328-1");
+    </script>
   </body>
 </html>
