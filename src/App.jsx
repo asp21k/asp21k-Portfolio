@@ -36,6 +36,8 @@ function App() {
       <div className="w-full p-2 md:w-full mx-auto bg-black ">
         
         <ScrollToTop>
+         <BuyMeACoffeeWidget />
+
           <NavBar />
           <Routes>
             <Route path="/" element={<Homepage />} />

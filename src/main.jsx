@@ -6,7 +6,6 @@ import BuyMeACoffeeWidget from './components/Shared/BuyMeCoffee.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BuyMeACoffeeWidget />
     <App />
   </React.StrictMode>,
 )
