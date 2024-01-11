@@ -56,11 +56,11 @@ export default function Hero() {
         </div>
       </Fade>
       <Fade>
-        <div className={style.container +" px-5 flex flex-col items-center rounded-full mt-[3.5rem] "}>
+        <div className={style.container +" px-5 flex flex-col items-center rounded-full mt-[3.0rem] "}>
           <div className={style.GradientBorder+" flex flex-col items-center"}>
           <img
             src={photo}
-            className="overflow-hidden w-[39rem] rounded-full shadow-2xl  mt-0"
+            className="overflow-hidden w-[35rem] rounded-full shadow-2xl  mt-0"
             alt="Atharva pardeshi"
           />
           </div>
