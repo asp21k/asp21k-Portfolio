@@ -14,9 +14,12 @@ import Resume from "./pages/Resume";
 import ScrollToTop from "./components/Shared/ScrollToTop";
 import { ToastContainer } from "react-toastify";
 import WhatIDo from "./pages/WhatIDo.jsx";
+import BuyMeACoffeeWidget from "./components/Shared/BuyMeCoffee.jsx";
 
 function App() {
+ 
   return (
+
     <BrowserRouter>
       <ToastContainer
         position="top-right"
@@ -31,6 +34,7 @@ function App() {
         theme="dark"
       />
       <div className="w-full p-2 md:w-full mx-auto bg-black ">
+        
         <ScrollToTop>
           <NavBar />
           <Routes>
