@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://asp21k.github.io/asp21k-portfolio/",
+  "homepage": "https://asp21k.github.io/asp21k-Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
