@@ -56,7 +56,7 @@ export default function Hero() {
         </div>
       </Fade>
       <Fade>
-        <div className={style.container +"  flex flex-col ml-12 items-center justify-center rounded-full mt-8 mb-7 "}>
+        <div className={style.container +"  flex flex-col mx-5 xl:ml-12 items-center justify-center rounded-full mt-8 mb-7 "}>
           <div className={style.GradientBorder+" flex flex-col items-center"}>
           <img
             src={photo}

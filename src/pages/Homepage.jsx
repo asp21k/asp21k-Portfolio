@@ -7,7 +7,7 @@ import Skills from "../components/Homepage/Skills";
 
 export default function Homepage() {
   return (
-    <div className="container mx-auto px-16 overflow-hidden">
+    <div className="container mx-auto xl:px-16 overflow-hidden">
       <Hero />
       <Skills />
       <Projects />

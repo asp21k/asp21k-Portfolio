@@ -8,7 +8,7 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="px-16">
+    <div className="px-2 xl:px-16">
       <Fade up>
         <div>
           <h1 className="text-center mt-10 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">

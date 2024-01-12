@@ -72,7 +72,7 @@ export default function NavBar() {
       <NavLink to="/">
         <img
           src={logo}
-          className="max-h-10 scale-[125%] ml-3 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-500 ease-in-out transform hover:scale-150"
+          className="max-h-12 scale-[125%] ml-3 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-500 ease-in-out transform hover:scale-150"
           alt="Logo"
         />
       </NavLink>
@@ -99,7 +99,7 @@ export default function NavBar() {
               className={
                 location.pathname === item.link
                   ? `text-orange-500 font-primary font-medium text-lg px-5 text-center mt-6 xl:my-auto`
-                  : `text-white font-primary font-medium text-sm px-5 text-center transition duration-500 ease-in-out hover:text-orange-500 mt-6 xl:my-auto`
+                  : `text-white font-primary font-medium text-base px-5 text-center transition duration-500 ease-in-out hover:text-orange-500 mt-6 xl:my-auto`
               }
             >
               {item.title}
