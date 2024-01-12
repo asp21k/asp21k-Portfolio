@@ -5,7 +5,7 @@ import submitsvg from "/submit.svg";
 
 export default function Submission() {
   return (
-    <div className="mx-auto w-full">
+    <div className="mx-auto w-full py-32 ">
         <div>
           <h3 className="mt-12 transform text-center font-primary text-5xl font-black text-white transition duration-500 ease-in-out hover:scale-105 hover:text-orange-400">
             Thank You for Getting in Touch.
