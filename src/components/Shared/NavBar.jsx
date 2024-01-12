@@ -72,7 +72,7 @@ export default function NavBar() {
       <NavLink to="/">
         <img
           src={logo}
-          className="max-h-10 scale-[125%] ml-3 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-500 ease-in-out transform hover:scale-105"
+          className="max-h-10 scale-[125%] ml-3 sm:max-h-16 md:max-h-20 xl:max-h-16 transition duration-500 ease-in-out transform hover:scale-150"
           alt="Logo"
         />
       </NavLink>
@@ -107,7 +107,7 @@ export default function NavBar() {
           ))}
 
           <NavLink to="/contact" onClick={handleClick}>
-            <button className="w-sutol flex flex-row mx-auto bg-orange-500 hover:bg-orange-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-6 mb-4 xl:mt-0 xl:mb-0">
+            <button className="w-auto flex flex-row mx-auto bg-orange-500 hover:bg-orange-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-base mt-6 mb-4 xl:mt-0 xl:mb-0">
               Contact Me{" "}
               <img
                 src={telephoneSvg}

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .heading-main {
-  @apply text-center mt-2 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-orange-600;
+  @apply text-center mt-2 font-primary font-black text-3xl md:text-4xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-orange-600;
 }
 
 .heading-tagline {

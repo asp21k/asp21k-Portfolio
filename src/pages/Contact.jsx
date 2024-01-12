@@ -115,21 +115,21 @@ export default function Contact() {
   };
 
   return (
-    <div className="overflow-hidden bg-slate-900/50 rounded-lg shadow-md items-center w-auto xl:w-5/6 mx-auto py-6 my-8">
+    <div className="overflow-hidden bg-slate-900/50 px-16 rounded-lg shadow-md items-center w-auto xl:w-5/6 mx-auto py-3 my-8">
       <Fade up cascade>
-        <div className="w-5/6 mx-auto">
+        <div className="w-11/12 mx-auto">
           <div>
             <h1 className="heading-main">Let's Talk</h1>
           </div>
-          <h1 className="text-center mt-4 font-secondary font-medium text-lg text-gray-400">
+          <h1 className="text-center mt-3 font-secondary font-medium text-base text-gray-400">
             While I am good with smoke signals, there are simpler ways to get in
             touch and answer your queries.
           </h1>
-          <div className="mt-8 space-y-4 lg:flex lg:space-x-8 lg:space-y-0">
+          <div className="mt-6 space-y-4 lg:flex lg:space-x-7 lg:space-y-0">
             <div className="mx-auto flex-grow transition duration-500 ease-in-out transform hover:scale-105">
               <a href="mailto:atharvap2123@gmail.com" rel="noreferrer">
                 <svg
-                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-orange-600 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
+                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-orange-600 transition duration-500 ease-in-out transform hover:scale-105 hover:text-blue-400"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
                 >
@@ -147,7 +147,7 @@ export default function Contact() {
             <div className="mx-auto flex-grow transition duration-500 ease-in-out transform hover:scale-105">
               <a href="tel:+91 8767379887" rel="noreferrer">
                 <svg
-                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-orange-600 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
+                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-orange-600 transition duration-500 ease-in-out transform hover:scale-105 hover:text-blue-400"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
                 >
@@ -169,7 +169,7 @@ export default function Contact() {
                 rel="noreferrer"
               >
                 <svg
-                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-orange-600 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
+                  className="w-16 h-16 lg:w-10 lg:h-10 mx-auto fill-current text-orange-600 transition duration-500 ease-in-out transform hover:scale-105 hover:text-blue-400"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
@@ -184,7 +184,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <div className="mt-8">
+          <div className="mt-6">
             <form onSubmit={handleSubmit} autoComplete="off">
               <div className="lg:flex lg:space-x-8">
                 <div className="w-full lg:w-1/2 flex flex-col">

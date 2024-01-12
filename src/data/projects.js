@@ -22,11 +22,11 @@ export const projectsData = [
   {
     name: "Portfolio Website",
     description:
-      "Created a simple and functional portfolio website using ReactJS and Tailwind CSS, hosted on Netlify. The site is designed to showcase my various projects and skills. Take a look to learn more about what I've been working on!",
+      "Created a simple and functional portfolio website using ReactJS and Tailwind CSS, hosted on Vercel. The site is designed to showcase my various projects and skills. Take a look to learn more about what I've been working on!",
     image: portfolio,
     code: "https://github.com/asp21k/asp21k-Portfolio",
     deployment:
-      "https://asp21k-portfolio.netlify.app/",
+      "www.asp21k-portfolio.vercel.app",
     techStack: [
       "HTML5",
       "CSS",

@@ -41,7 +41,7 @@ export default function Hero() {
             Computer Technology with a keen interest in the field of Full Stack
             Development, Frontend Development and Graphic Design.
           </h1>
-          <div className="flex flex-col lg:flex-row lg:justify-around">
+          <div className="flex flex-col lg:flex-row lg:justify-start lg:space-x-24">
             <Link to="/resume">
               <button className="w-full mt-8 font-secondary bg-transparent transition duration-500 ease-in-out hover:bg-orange-500 text-orange-500 font-semibold hover:text-white py-4 px-6 border border-orange-500 hover:border-transparent rounded lg:w-auto">
                 See my Resume
@@ -56,11 +56,11 @@ export default function Hero() {
         </div>
       </Fade>
       <Fade>
-        <div className={style.container +" px-5 flex flex-col items-center rounded-full mt-[3.0rem] "}>
+        <div className={style.container +"  flex flex-col ml-12 items-center justify-center rounded-full mt-8 mb-7 "}>
           <div className={style.GradientBorder+" flex flex-col items-center"}>
           <img
             src={photo}
-            className="overflow-hidden w-[35rem] rounded-full shadow-2xl  mt-0"
+            className="overflow-hidden w-[30rem] rounded-full shadow-2xl  mt-0"
             alt="Atharva pardeshi"
           />
           </div>
