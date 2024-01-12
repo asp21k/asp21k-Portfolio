@@ -16,7 +16,7 @@ export default function Hero() {
           <h1 className="mt-2 font-primary font-bold text-white text-5xl text-left">
             I'm Atharva Pardeshi
           </h1>
-          <div className="mt-4 font-primary font-medium hidden md:block text-orange-500 text-2xl md:text-4xl text-left">
+          <div className="mt-4 font-primary font-medium  md:block text-orange-500 text-2xl md:text-4xl text-left">
             <Typewriter
               options={{
                 loop: true,
