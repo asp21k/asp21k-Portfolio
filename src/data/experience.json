@@ -1,16 +1,12 @@
 [
-    {
-        "date": "",
-        "title": " Seeking Internship",
-        "subtitle": "",
-        "website": "",
-        "details": [
-            "Seeking a internship position in the field of Software Engineering, React Development, or Full Stack Development."
-        ],
-        "techStack": [
-            "MERN Stack"
-        ]
-    }
-    
-    
+  {
+    "date": "",
+    "title": " Seeking Internship",
+    "subtitle": "",
+    "website": "",
+    "details": [
+      "Seeking a internship position in the field of Software Engineering, React Development, or Full Stack Development."
+    ],
+    "techStack": ["MERN Stack"]
+  }
 ]

@@ -23,7 +23,10 @@ export default function Experience() {
             <VerticalTimelineElement
               key={index}
               className="vertical-timeline-element--education"
-              contentStyle={{ background: "rgba(15, 23, 42, 0.6)", color: "#ea580c" }}
+              contentStyle={{
+                background: "rgba(15, 23, 42, 0.6)",
+                color: "#ea580c",
+              }}
               contentArrowStyle={{ borderRight: "7px solid  #1F2937" }}
               date={experience.date}
               dateClassName="font-secondary font-medium text-white"
@@ -51,7 +54,7 @@ export default function Experience() {
                   </a>
                 ) : null}
               </div>
-              <h4 className="mb-4 font-secondary text-md font-normal text-white">
+              <h4 className="text-md mb-4 font-secondary font-normal text-white">
                 {experience.subtitle}
               </h4>
 
@@ -64,11 +67,11 @@ export default function Experience() {
                 </p>
               ))}
               <div className="mb-2">
-                <div className="align-middle items-start mt-2 space-y-2">
+                <div className="mt-2 items-start space-y-2 align-middle">
                   {experience.techStack.map((stack, index) => {
                     return (
                       <span
-                        className="inline-block rounded-full bg-gray-700 mr-2 my-auto font-secondary font-normal text-gray-300 text-center px-4 py-1 text-sm"
+                        className="my-auto mr-2 inline-block rounded-full bg-gray-700 px-4 py-1 text-center font-secondary text-sm font-normal text-gray-300"
                         key={index}
                       >
                         {stack}

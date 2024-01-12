@@ -5,20 +5,16 @@ import { projectsData } from "../../data/projects";
 
 export default function Projects() {
   return (
-    <section className="mt-16 mx-3" id="all-projects">
+    <section className="mx-3 mt-16" id="all-projects">
       <Fade up>
         <div>
-          <a
-            href="https://www.github.com//"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://www.github.com//" target="_blank" rel="noreferrer">
             <h1 className="heading-main">All Projects</h1>
           </a>
         </div>
       </Fade>
       <Fade up>
-        <div className="flex flex-wrap w-full justify-center">
+        <div className="flex w-full flex-wrap justify-center">
           {projectsData.map((project, index) => (
             <ProjectCard project={project} key={index} />
           ))}

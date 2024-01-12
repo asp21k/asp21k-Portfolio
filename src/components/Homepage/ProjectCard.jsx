@@ -24,27 +24,27 @@ export const ProjectCard = (props) => {
   };
 
   return (
-    <div className="pt-4 w-full max-w-lg lg:w-1/2 xl:w-1/3 mt-4 ">
-      <div className="flex flex-col h-full mx-3 bg-slate-900/40 shadow-2xl rounded-lg transition ease-in-out transform hover:scale-105 hover:-translate-y-1 duration-300 hover:shadow-orange-700/50">
+    <div className="mt-4 w-full max-w-lg pt-4 lg:w-1/2 xl:w-1/3 ">
+      <div className="mx-3 flex h-full transform flex-col rounded-lg bg-slate-900/40 shadow-2xl transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-orange-700/50">
         <img
           src={image}
           alt={name}
-          className="w-full object-cover h-64 rounded-lg rounded-b-none"
+          className="h-64 w-full rounded-lg rounded-b-none object-cover"
         />
-        <div className="px-4 py-2 mt-2">
-          <h2 className="text-center font-bold font-primary text-2xl text-orange-600">
+        <div className="mt-2 px-4 py-2">
+          <h2 className="text-center font-primary text-2xl font-bold text-orange-600">
             {name}
           </h2>
-          <p className="text-center text-sm text-secondary text-gray-300 px-2 py-2">
+          <p className="text-secondary px-2 py-2 text-center text-sm text-gray-300">
             {description}
           </p>
         </div>
-        <div className="flex flex-col flex-grow"></div>
-        <div className="space-y-2 mx-2 mb-6 text-center justify-center">
+        <div className="flex flex-grow flex-col"></div>
+        <div className="mx-2 mb-6 justify-center space-y-2 text-center">
           {techStack.map((stack, index) => {
             return (
               <span
-                className="inline-block rounded-full bg-slate-700 mx-1 my-auto font-secondary font-normal text-gray-300 text-center px-4 py-1 text-sm"
+                className="mx-1 my-auto inline-block rounded-full bg-slate-700 px-4 py-1 text-center font-secondary text-sm font-normal text-gray-300"
                 key={index}
               >
                 {stack}
@@ -52,8 +52,8 @@ export const ProjectCard = (props) => {
             );
           })}
         </div>
-        <div className="flex flex-col border border-t-0 border-r-0 border-l-0 border-gray-700 mx-6"></div>
-        <div className="flex px-8 py-4 justify-around">
+        <div className="mx-6 flex flex-col border border-l-0 border-r-0 border-t-0 border-gray-700"></div>
+        <div className="flex justify-around px-8 py-4">
           {code ? (
             <a href={code} target="_blank" rel="noreferrer">
               <svg
@@ -110,28 +110,28 @@ export const ProjectCard = (props) => {
                     backgroundColor: "#000a",
                   },
                 }}
-                className="bg-gray-800 my-auto h-auto absolute top-20 left-10 right-10 md:left-40 md:right-40 bottom-40 md:bottom-20 rounded-xl"
+                className="absolute bottom-40 left-10 right-10 top-20 my-auto h-auto rounded-xl bg-gray-800 md:bottom-20 md:left-40 md:right-40"
               >
                 <div className="flex flex-row">
                   <button
-                    className="ml-auto mt-6 mr-6"
+                    className="ml-auto mr-6 mt-6"
                     onClick={() => toggleModal()}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 48 48"
-                      className="h-8 w-8 fill-current text-gray-200 stroke-current stroke-2"
+                      className="h-8 w-8 fill-current stroke-current stroke-2 text-gray-200"
                     >
                       <path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
                     </svg>
                   </button>
                 </div>
-                <div className="h-full my-auto">
-                  <h1 className="font-bold font-primary text-center text-2xl text-gray-300 hover:text-orange-400 transition duration-500 ease-in-out -mt-8 mb-6 mx-16">
+                <div className="my-auto h-full">
+                  <h1 className="mx-16 -mt-8 mb-6 text-center font-primary text-2xl font-bold text-gray-300 transition duration-500 ease-in-out hover:text-orange-400">
                     System Architecture
                   </h1>
                   <iframe
-                    className="w-5/6 sm:w-3/4 h-2/3 md:h-3/4 mx-auto cursor-pointer"
+                    className="mx-auto h-2/3 w-5/6 cursor-pointer sm:w-3/4 md:h-3/4"
                     src={sysArch}
                     title="architechture"
                   />
@@ -140,10 +140,10 @@ export const ProjectCard = (props) => {
             </>
           ) : null}
           {status ? (
-            <p className="text-center font-secondary font-normal text-orange-600 text-sm hover:scale-110">
+            <p className="text-center font-secondary text-sm font-normal text-orange-600 hover:scale-110">
               {status}
             </p>
-          ): null}
+          ) : null}
         </div>
       </div>
     </div>

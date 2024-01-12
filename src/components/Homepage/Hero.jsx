@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import photo from "../../images/my.png";
-import  style from "./hero.module.css";
+import style from "./hero.module.css";
 
 export default function Hero() {
   return (
-    <div className="mt-10 W-full grid grid-cols-1 lg:grid-cols-2">
+    <div className="W-full mt-10 grid grid-cols-1 lg:grid-cols-2">
       <Fade>
-        <div className="my-auto px-5 flex flex-col justify-start md:justify-center lg:justify-start">
-          <h1 className="font-primary font-bold text-white text-5xl text-left">
+        <div className="my-auto flex flex-col justify-start px-5 md:justify-center lg:justify-start">
+          <h1 className="text-left font-primary text-5xl font-bold text-white">
             Hey there,
           </h1>
-          <h1 className="mt-2 font-primary font-bold text-white text-5xl text-left">
+          <h1 className="mt-2 text-left font-primary text-5xl font-bold text-white">
             I'm Atharva Pardeshi
           </h1>
-          <div className="mt-4 font-primary font-medium  md:block text-orange-500 text-2xl md:text-4xl text-left">
+          <div className="mt-4 text-left font-primary  text-2xl font-medium text-orange-500 md:block md:text-4xl">
             <Typewriter
               options={{
                 loop: true,
@@ -36,19 +36,19 @@ export default function Hero() {
               }}
             />
           </div>
-          <h1 className="mt-4 font-secondary font-normal text-gray-400 text-xl text-left">
+          <h1 className="mt-4 text-left font-secondary text-xl font-normal text-gray-400">
             I am a Computer Engineering Undergraduate at Pune Institute of
             Computer Technology with a keen interest in the field of Full Stack
             Development, Frontend Development and Graphic Design.
           </h1>
           <div className="flex flex-col lg:flex-row lg:justify-start lg:space-x-24">
             <Link to="/resume">
-              <button className="w-full mt-8 font-secondary bg-transparent transition duration-500 ease-in-out hover:bg-orange-500 text-orange-500 font-semibold hover:text-white py-4 px-6 border border-orange-500 hover:border-transparent rounded lg:w-auto">
+              <button className="mt-8 w-full rounded border border-orange-500 bg-transparent px-6 py-4 font-secondary font-semibold text-orange-500 transition duration-500 ease-in-out hover:border-transparent hover:bg-orange-500 hover:text-white lg:w-auto">
                 See my Resume
               </button>
             </Link>
             <Link to="/contact">
-              <button className="w-full mt-4 font-secondary bg-transparent transition duration-500 ease-in-out hover:bg-orange-500 text-orange-500 font-semibold hover:text-white py-4 px-6 border border-orange-500 hover:border-transparent rounded lg:mt-8 lg:w-auto">
+              <button className="mt-4 w-full rounded border border-orange-500 bg-transparent px-6 py-4 font-secondary font-semibold text-orange-500 transition duration-500 ease-in-out hover:border-transparent hover:bg-orange-500 hover:text-white lg:mt-8 lg:w-auto">
                 Reach out
               </button>
             </Link>
@@ -56,13 +56,19 @@ export default function Hero() {
         </div>
       </Fade>
       <Fade>
-        <div className={style.container +"  flex flex-col mx-5 xl:ml-12 items-center justify-center rounded-full mt-8 mb-7 "}>
-          <div className={style.GradientBorder+" flex flex-col items-center"}>
-          <img
-            src={photo}
-            className="overflow-hidden w-[30rem] rounded-full shadow-2xl  mt-0"
-            alt="Atharva pardeshi"
-          />
+        <div
+          className={
+            style.container +
+            "  mx-5 mb-7 mt-8 flex flex-col items-center justify-center rounded-full xl:ml-12 "
+          }
+        >
+          <div className={style.GradientBorder + " flex flex-col items-center"}>
+            <img
+              src={photo}
+              className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
+              alt="Atharva pardeshi"
+              loading="lazy"
+            />
           </div>
         </div>
       </Fade>

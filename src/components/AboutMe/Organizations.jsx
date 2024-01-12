@@ -12,7 +12,7 @@ export default function Organizations() {
         </div>
       </Fade>
       <Fade up>
-        <div className="flex flex-wrap w-full">
+        <div className="flex w-full flex-wrap">
           {organizationsData.map((organization, index) => (
             <OrganizationCard organization={organization} key={index} />
           ))}

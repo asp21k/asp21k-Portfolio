@@ -1,20 +1,20 @@
 [
-    {
-        "date": "2021 - 2025",
-        "title": "Pune Institute of Computer Technology, Pune",
-        "subtitle": "B.E. - Computer Engineering",
-        "grade": "CGPA: 8.975/10"
-    },
-    {
-        "date": "2021",
-        "title": "Samata International School, Kopargaon",
-        "subtitle": "12th Standard",
-        "grade": "Percentage: 96.2%"
-    },
-    {
-        "date": "APRIL 2019",
-        "title": "Sant Janardhan Swami Maharshi School, Kopargao",
-        "subtitle": "10th Standard",
-        "grade": "Percentage: 93.0%"
-    }
+  {
+    "date": "2021 - 2025",
+    "title": "Pune Institute of Computer Technology, Pune",
+    "subtitle": "B.E. - Computer Engineering",
+    "grade": "CGPA: 8.975/10"
+  },
+  {
+    "date": "2021",
+    "title": "Samata International School, Kopargaon",
+    "subtitle": "12th Standard",
+    "grade": "Percentage: 96.2%"
+  },
+  {
+    "date": "APRIL 2019",
+    "title": "Sant Janardhan Swami Maharshi School, Kopargao",
+    "subtitle": "10th Standard",
+    "grade": "Percentage: 93.0%"
+  }
 ]

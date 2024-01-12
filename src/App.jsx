@@ -15,11 +15,10 @@ import ScrollToTop from "./components/Shared/ScrollToTop";
 import { ToastContainer } from "react-toastify";
 import WhatIDo from "./pages/WhatIDo.jsx";
 import BuyMeACoffeeWidget from "./components/Shared/BuyMeCoffee.jsx";
+import Submission from "./pages/Submission.jsx";
 
 function App() {
- 
   return (
-
     <BrowserRouter>
       <ToastContainer
         position="top-right"
@@ -33,10 +32,9 @@ function App() {
         pauseOnHover
         theme="dark"
       />
-      <div className="w-full p-2 md:w-full mx-auto bg-black ">
-        
+      <div className="mx-auto w-full bg-black p-2 md:w-full ">
         <ScrollToTop>
-         <BuyMeACoffeeWidget />
+          <BuyMeACoffeeWidget />
 
           <NavBar />
           <Routes>
@@ -47,6 +45,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/messages" element={<Messages />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/submission" element={<Submission />} />
           </Routes>
           <Footer />
         </ScrollToTop>

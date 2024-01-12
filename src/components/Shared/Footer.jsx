@@ -5,12 +5,15 @@ import React from "react";
 // import axios from "axios";
 
 export default function Footer() {
-  
-
   return (
-    <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-dashed border-t border-gray-700 mt-8 py-4 justify-center items-center md:justify-between md:flex-row">
-      <div className="flex space-x-4 md:space-x-8 order-1 md:order-2">
-        <a href="https://github.com/asp21k" target="_blank" rel="noreferrer" className="hover:fill-orange-600">
+    <footer className="relative bottom-0 left-0 mt-8 flex w-full flex-col items-center justify-center border-t border-dashed border-gray-700 px-5 py-4 md:flex-row md:justify-between">
+      <div className="order-1 flex space-x-4 md:order-2 md:space-x-8">
+        <a
+          href="https://github.com/asp21k"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:fill-orange-600"
+        >
           <svg
             className="circled-icon hover:fill-orange-600"
             xmlns="http://www.w3.org/2000/svg"
@@ -83,11 +86,11 @@ export default function Footer() {
           </svg>
         </a>
       </div>
-      <div className="mt-4 order-2 md:order-1 md:my-auto md:mr-4 flex-col">
-        <p className="font-secondary font-semibold text-gray-400 text-md">
+      <div className="order-2 mt-4 flex-col md:order-1 md:my-auto md:mr-4">
+        <p className="text-md font-secondary font-semibold text-gray-400">
           Made with{" "}
           <span className="font-thin" role="img" aria-label="emoji">
-            ❤️
+            🧡
           </span>{" "}
           by Atharva Pardeshi.
         </p>

@@ -5,11 +5,11 @@ export default function Resume() {
   const resumeUrl =
     "https://drive.google.com/file/d/1xvQ92DwpBdLt_3ezLwODQc4TPvEKPnP6/preview";
   return (
-    <div className="shadow-md max-w-5xl mx-auto mt-16 overflow-hidden rounded-lg divide-gray-800">
+    <div className="mx-auto mt-16 max-w-5xl divide-gray-800 overflow-hidden rounded-lg shadow-md">
       <div className="h-full">
-        <div className="bg-gray-800 py-6 px-6 flex justify-between items-center">
+        <div className="flex items-center justify-between bg-gray-800 px-6 py-6">
           <Fade>
-            <h1 className="text-gray-300 text-md md:text-xl font-semibold font-secondary">
+            <h1 className="text-md font-secondary font-semibold text-gray-300 md:text-xl">
               Resume | Atharva Pardeshi
             </h1>
           </Fade>
@@ -18,9 +18,9 @@ export default function Resume() {
             target="_blank"
           >
             <Fade>
-              <div className="flex flex-row bg-orange-600 hover:bg-orange-700 text-white font-secondary py-2 px-4 rounded-md ">
+              <div className="flex flex-row rounded-md bg-orange-600 px-4 py-2 font-secondary text-white hover:bg-orange-700 ">
                 <svg
-                  className="fill-current text-white -ml-1 mr-3 h-5 w-5"
+                  className="-ml-1 mr-3 h-5 w-5 fill-current text-white"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -38,7 +38,7 @@ export default function Resume() {
         </div>
         <iframe
           title="Atharva Pardeshi | Resume"
-          className="w-full h-screen mx-auto bg-blue-800"
+          className="mx-auto h-screen w-full bg-blue-800"
           src={resumeUrl}
         ></iframe>
       </div>

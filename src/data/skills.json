@@ -1,98 +1,98 @@
 [
-    {
-        "name": "C++",
-        "url": "https://img.icons8.com/color/192/000000/c-plus-plus-logo.png"
-    },
-    {
-        "name": "Java",
-        "url": "https://img.icons8.com/color/192/000000/java-coffee-cup-logo.png"
-    },
-    {
-        "name": "Python",
-        "url": "https://img.icons8.com/color/192/000000/python.png"
-    },
-    {
-        "name": "HTML",
-        "url": "https://img.icons8.com/color/192/000000/html-5.png"
-    },
-    {
-        "name": "CSS",
-        "url": "https://img.icons8.com/color/192/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "url": "https://img.icons8.com/color/192/000000/javascript.png"
-    },
-    {
-        "name": "MySQL",
-        "url": "https://img.icons8.com/fluency/192/000000/mysql-logo.png"
-    },
-    {
-        "name": "PostgreSQL",
-        "url": "https://img.icons8.com/color/48/postgreesql.png"
-    },
-    {
-        "name": "MongoDB",
-        "url": "https://img.icons8.com/color/192/000000/mongodb.png"
-    },
-    {
-        "name": "Node JS",
-        "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
-    },
-    {
-        "name": "Express JS",
-        "url": "/icons8-express-js-96.svg"
-    },
-    {
-        "name": "React JS",
-        "url": "https://img.icons8.com/color/192/000000/react-native.png"
-    },
-    {
-        "name": "Next JS",
-        "url": "/nextjs-svgrepo-com.svg"
-    },
-    {
-        "name": "Tailwind",
-        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-    },
-    {
-        "name": "Vite",
-        "url": "https://img.icons8.com/fluency/48/vite.png"
-    },
-    {
-        "name": "Git",
-        "url": "https://img.icons8.com/color/192/000000/git.png"
-    },
-    {
-        "name": "Vercel ",
-        "url": "/vercel-1.svg"
-    },
-    {
-        "name": "Netlify",
-        "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/384/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-color-tal-revivo.png"
-    },
-    {
-        "name": "Photoshop",
-        "url": "https://img.icons8.com/color/192/000000/adobe-photoshop.png"
-    },
-    {
-        "name": "Illustrator",
-        "url": "https://img.icons8.com/color/192/000000/adobe-illustrator.png"
-    },
-    {
-        "name": "Premiere Pro",
-        "url": "https://img.icons8.com/color/192/000000/adobe-premiere-pro.png"
-    },
-    {
-        "name": "Adobe XD",
-        "url": "https://img.icons8.com/color/192/000000/adobe-xd.png"
-    },
-    {
-        "name": "Figma",
-        "url": "https://img.icons8.com/color/192/000000/figma.png"
-    },
-    {
-        "name": "After Effects",
-        "url": "https://img.icons8.com/color/48/adobe-after-effects--v1.png"
-    }
+  {
+    "name": "C++",
+    "url": "https://img.icons8.com/color/192/000000/c-plus-plus-logo.png"
+  },
+  {
+    "name": "Java",
+    "url": "https://img.icons8.com/color/192/000000/java-coffee-cup-logo.png"
+  },
+  {
+    "name": "Python",
+    "url": "https://img.icons8.com/color/192/000000/python.png"
+  },
+  {
+    "name": "HTML",
+    "url": "https://img.icons8.com/color/192/000000/html-5.png"
+  },
+  {
+    "name": "CSS",
+    "url": "https://img.icons8.com/color/192/000000/css3.png"
+  },
+  {
+    "name": "JavaScript",
+    "url": "https://img.icons8.com/color/192/000000/javascript.png"
+  },
+  {
+    "name": "MySQL",
+    "url": "https://img.icons8.com/fluency/192/000000/mysql-logo.png"
+  },
+  {
+    "name": "PostgreSQL",
+    "url": "https://img.icons8.com/color/48/postgreesql.png"
+  },
+  {
+    "name": "MongoDB",
+    "url": "https://img.icons8.com/color/192/000000/mongodb.png"
+  },
+  {
+    "name": "Node JS",
+    "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+  },
+  {
+    "name": "Express JS",
+    "url": "/icons8-express-js-96.svg"
+  },
+  {
+    "name": "React JS",
+    "url": "https://img.icons8.com/color/192/000000/react-native.png"
+  },
+  {
+    "name": "Next JS",
+    "url": "/nextjs-svgrepo-com.svg"
+  },
+  {
+    "name": "Tailwind",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+  },
+  {
+    "name": "Vite",
+    "url": "https://img.icons8.com/fluency/48/vite.png"
+  },
+  {
+    "name": "Git",
+    "url": "https://img.icons8.com/color/192/000000/git.png"
+  },
+  {
+    "name": "Vercel ",
+    "url": "/vercel-1.svg"
+  },
+  {
+    "name": "Netlify",
+    "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/384/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-color-tal-revivo.png"
+  },
+  {
+    "name": "Photoshop",
+    "url": "https://img.icons8.com/color/192/000000/adobe-photoshop.png"
+  },
+  {
+    "name": "Illustrator",
+    "url": "https://img.icons8.com/color/192/000000/adobe-illustrator.png"
+  },
+  {
+    "name": "Premiere Pro",
+    "url": "https://img.icons8.com/color/192/000000/adobe-premiere-pro.png"
+  },
+  {
+    "name": "Adobe XD",
+    "url": "https://img.icons8.com/color/192/000000/adobe-xd.png"
+  },
+  {
+    "name": "Figma",
+    "url": "https://img.icons8.com/color/192/000000/figma.png"
+  },
+  {
+    "name": "After Effects",
+    "url": "https://img.icons8.com/color/48/adobe-after-effects--v1.png"
+  }
 ]

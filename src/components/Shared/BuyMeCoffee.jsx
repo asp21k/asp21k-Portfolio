@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 
 export default function Buymeacoffee() {
   useEffect(() => {
-    if (window.innerWidth > 1) { // Adjust the width as needed
+    if (window.innerWidth > 1) {
+      // Adjust the width as needed
       const script = document.createElement("script");
       const div = document.getElementById("supportByBMC");
       script.src = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js";
@@ -12,13 +13,13 @@ export default function Buymeacoffee() {
       script.setAttribute("data-description", "Support me on Buy me a coffee!");
       script.setAttribute(
         "data-message",
-        "Hi there. You can buy me a coffee to support!"
+        "Hi there. You can buy me a coffee to support!",
       );
       script.setAttribute("data-color", "#ff5100");
       script.setAttribute("data-position", "Right");
       script.setAttribute(
         "data-latest-msg",
-        "Thanks to [latest supporter] for the support!"
+        "Thanks to [latest supporter] for the support!",
       );
       script.setAttribute("data-send-email", "true");
       script.setAttribute("data-x_margin", "25");
