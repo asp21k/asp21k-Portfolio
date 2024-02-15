@@ -1,6 +1,7 @@
 import picto from "/pictodemo.png";
 import portfolio from "../images/portfolio-demo.png";
 import defaultImage from "../images/default-project.png";
+import pictofest from "../images/pictofest.png";
 
 export const projectsData = [
   {
@@ -23,6 +24,23 @@ export const projectsData = [
     techStack: ["HTML5", "CSS", "ReactJS", "TailwindCSS", "Vite"],
     sysArch: "",
   },
+  {
+    "name": "PICTOFEST",
+    "description": "PICTOFEST is an art photography exhibition cum competition platform along with workshops and side events, organized by PICTOREAL PICT. The platform facilitates user management, entry/image submissions, online and offline voting, as well as workshop and side event registrations.",
+    "image": pictofest,
+    "code": "",
+    "deployment": "www.pictofest.in",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Firebase"
+    ],
+    "sysArch": "",
+    
+  },  
   {
     name: "PICT-O-BLOGS",
     description:
