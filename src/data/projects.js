@@ -15,14 +15,14 @@ export const projectsData = [
     sysArch: "",
   },
   {
-    name: "Portfolio Website",
-    description:
-      "Created a simple and functional portfolio website using ReactJS and Tailwind CSS, hosted on Vercel. The site is designed to showcase my various projects and skills. Take a look to learn more about what I've been working on!",
-    image: portfolio,
-    code: "https://github.com/asp21k/asp21k-Portfolio",
-    deployment: "https://www.asp21k-portfolio.vercel.app",
-    techStack: ["HTML5", "CSS", "ReactJS", "TailwindCSS", "Vite"],
+    name: "PIJET Official Website",
+    description: "Contributed to the development of the official website for PICT’s International Journal of Engineering and Technology (PIJET) using ReactJS and Tailwind CSS. The website serves as a comprehensive platform to showcase the journal’s content, publications, and important information. Explore the website to get insights into the world of engineering and technology at PICT!",
+    image: defaultImage,
+    code: "",
+    deployment: "https://www.pijet.org/",
+    techStack: ["ReactJS", "Tailwind CSS"],
     sysArch: "",
+    status: "In Progress",
   },
   {
     name: "PICTOFEST",
@@ -59,4 +59,15 @@ export const projectsData = [
     sysArch: "",
     status: "In Progress",
   },
+  {
+    name: "Portfolio Website",
+    description:
+      "Created a simple and functional portfolio website using ReactJS and Tailwind CSS, hosted on Vercel. The site is designed to showcase my various projects and skills. Take a look to learn more about what I've been working on!",
+    image: portfolio,
+    code: "https://github.com/asp21k/asp21k-Portfolio",
+    deployment: "https://www.asp21k-portfolio.vercel.app",
+    techStack: ["HTML5", "CSS", "ReactJS", "TailwindCSS", "Vite"],
+    sysArch: "",
+  }
+  
 ];

@@ -153,7 +153,7 @@ export default function Contact() {
 
             <div className="mx-auto flex-grow transform transition duration-500 ease-in-out hover:scale-105">
               <a
-                href="https://goo.gl/maps/Yg3JFteSWH2MK8q38"
+                href="https://maps.app.goo.gl/4pD9AhJhFJnfJ5cZ9"
                 target="_blank"
                 rel="noreferrer"
               >

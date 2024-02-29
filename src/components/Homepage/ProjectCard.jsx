@@ -25,6 +25,7 @@ export const ProjectCard = (props) => {
 
   return (
     <div className="mt-4 w-full max-w-lg pt-4 lg:w-1/2 xl:w-1/3 ">
+      <a href={deployment} target="_blank" rel="noreferrer">
       <div className="mx-3 flex h-full transform flex-col rounded-lg bg-slate-900/40 shadow-2xl transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-orange-700/50">
         <img
           src={image}
@@ -140,12 +141,13 @@ export const ProjectCard = (props) => {
             </>
           ) : null}
           {status ? (
-            <p className="text-center font-secondary text-sm font-normal text-orange-600 hover:scale-110">
+            <p className="text-center my-auto font-bold font-secondary text-sm  text-orange-600 hover:scale-110">
               {status}
             </p>
           ) : null}
         </div>
       </div>
+      </a>
     </div>
   );
 };

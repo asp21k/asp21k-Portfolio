@@ -7,7 +7,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="relative bottom-0 left-0 mt-8 flex w-full flex-col items-center justify-center border-t border-dashed border-gray-700 px-5 py-4 md:flex-row md:justify-between">
-      <div className="order-1 flex space-x-4 md:order-2 md:space-x-8">
+      <div className="order-1 md:mr-16 flex space-x-4 md:order-2 md:space-x-8">
         <a
           href="https://github.com/asp21k"
           target="_blank"

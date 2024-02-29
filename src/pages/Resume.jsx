@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Resume() {
   const resumeUrl =
-    "https://drive.google.com/file/d/1xvQ92DwpBdLt_3ezLwODQc4TPvEKPnP6/preview";
+    "/resume.pdf";
   return (
     <div className="mx-auto mt-16 max-w-5xl divide-gray-800 overflow-hidden rounded-lg shadow-md">
       <div className="h-full">
@@ -14,7 +14,7 @@ export default function Resume() {
             </h1>
           </Fade>
           <a
-            href="https://drive.google.com/uc?export=download&id=1xvQ92DwpBdLt_3ezLwODQc4TPvEKPnP6"
+            href="/resume.pdf"
             target="_blank"
           >
             <Fade>
