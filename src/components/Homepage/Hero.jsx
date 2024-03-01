@@ -1,11 +1,29 @@
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
-import photo from "../../images/my.png";
+import photo0 from "../../images/my.png";
+import photo1 from "/pfp.jpeg";
 import style from "./hero.module.css";
 
 export default function Hero() {
+  const [photoIndex, setPhotoIndex] = useState(0);
+  const photos = [photo1, photo0];
+
+  useEffect(() => {
+    // Preload images
+    photos.forEach((photo) => {
+      const img = new Image();
+      img.src = photo;
+    });
+
+    const interval = setInterval(() => {
+      setPhotoIndex((prevIndex) => (prevIndex === 0 ? 1 : 0)); // Toggle between 0 and 1
+    }, 7000); // Change photo every 7 seconds
+
+    return () => clearInterval(interval); // Clear the interval on component unmount
+  }, []);
+
   return (
     <div className="W-full mt-10 grid grid-cols-1 lg:grid-cols-2">
       <Fade>
@@ -62,13 +80,27 @@ export default function Hero() {
             "  mx-5 mb-7 mt-8 flex flex-col items-center justify-center rounded-full xl:ml-12 "
           }
         >
-          <div className={style.GradientBorder + " flex flex-col items-center"}>
-            <img
-              src={photo}
-              className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
-              alt="Atharva pardeshi"
-              loading="lazy"
-            />
+          <div className={`${style.GradientBorder} flex flex-col items-center`}>
+            {photoIndex === 0 && (
+              <Fade>
+                <img
+                  src={photos[0]}
+                  className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
+                  alt="Atharva pardeshi"
+                  loading="lazy"
+                />
+              </Fade>
+            )}
+            {photoIndex === 1 && (
+              <Fade>
+                <img
+                  src={photos[1]}
+                  className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
+                  alt="Atharva pardeshi"
+                  loading="lazy"
+                />
+              </Fade>
+            )}
           </div>
         </div>
       </Fade>
