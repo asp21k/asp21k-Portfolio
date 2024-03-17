@@ -1,32 +1,23 @@
+import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
-import photo0 from "../../images/my.png";
-import photo1 from "/pfp.jpeg";
 import style from "./hero.module.css";
 
 export default function Hero() {
-  const [photoIndex, setPhotoIndex] = useState(0);
-  const photos = [photo1, photo0];
+  const [photoIndex, setPhotoIndex] = useState(false);
 
-  useEffect(() => {
-    // Preload images
-    photos.forEach((photo) => {
-      const img = new Image();
-      img.src = photo;
-    });
+  // Function to toggle photoIndex between 0 and 1
+  // const togglePhoto = () => {
+  //   setPhotoIndex(!photoIndex);
+  // };
 
-    const interval = setInterval(() => {
-      setPhotoIndex((prevIndex) => (prevIndex === 0 ? 1 : 0)); // Toggle between 0 and 1
-    }, 7000); // Change photo every 7 seconds
-
-    return () => clearInterval(interval); // Clear the interval on component unmount
-  }, []);
+  // Automatically change photo every 3 seconds
+  // setTimeout(togglePhoto, 4000);
 
   return (
     <div className="W-full mt-10 grid grid-cols-1 lg:grid-cols-2">
-      <Fade>
+      <Fade left>
         <div className="my-auto flex flex-col justify-start px-5 md:justify-center lg:justify-start">
           <h1 className="text-left font-primary text-5xl font-bold text-white">
             Hey there,
@@ -73,7 +64,7 @@ export default function Hero() {
           </div>
         </div>
       </Fade>
-      <Fade>
+      <Fade right>
         <div
           className={
             style.container +
@@ -81,22 +72,22 @@ export default function Hero() {
           }
         >
           <div className={`${style.GradientBorder} flex flex-col items-center`}>
-            {photoIndex === 0 && (
+            {photoIndex === true && (
               <Fade>
                 <img
-                  src={photos[0]}
+                  src="/my.webp"
                   className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
                   alt="Atharva pardeshi"
                   loading="lazy"
                 />
               </Fade>
             )}
-            {photoIndex === 1 && (
+            {photoIndex === false && (
               <Fade>
                 <img
-                  src={photos[1]}
+                  src="/pfp.webp"
                   className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
-                  alt="Atharva pardeshi"
+                  alt="Atharva Pardeshi"
                   loading="lazy"
                 />
               </Fade>

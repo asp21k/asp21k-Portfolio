@@ -2,6 +2,7 @@ import "./App.css";
 import "react-toastify/dist/ReactToastify.min.css";
 
 import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
@@ -35,8 +36,9 @@ function App() {
       <div className="mx-auto w-full bg-black p-2 md:w-full ">
         <ScrollToTop>
           <BuyMeACoffeeWidget />
-
-          <NavBar />
+          <Fade top>
+            <NavBar />
+          </Fade>
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/resume" element={<Resume />} />
