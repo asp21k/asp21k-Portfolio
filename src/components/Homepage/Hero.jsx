@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+// import { useState } from "react";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import style from "./hero.module.css";
 
 export default function Hero() {
-  const [photoIndex, setPhotoIndex] = useState(false);
+  // const [photoIndex, setPhotoIndex] = useState(false);
 
   // Function to toggle photoIndex between 0 and 1
   // const togglePhoto = () => {

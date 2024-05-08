@@ -1,5 +1,5 @@
 import Fade from "react-reveal/Fade";
-import React from "react";
+// import React from "react";
 
 export default function WhatIDo() {
   return (
@@ -73,7 +73,7 @@ export default function WhatIDo() {
               Languages I Speak:
             </h3>
             <p className="mt-2 text-center font-secondary text-lg font-normal text-gray-400">
-              C++, Python, Java, JavaScript, HTML, CSS, SQL.
+              C++, Python, Java, JavaScript, HTML, SQL.
             </p>
             <h3 className="mt-12 text-center font-secondary text-lg font-medium text-orange-600">
               Dev Tools:
