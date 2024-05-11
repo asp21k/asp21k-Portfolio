@@ -17,9 +17,11 @@ import { ToastContainer } from "react-toastify";
 import WhatIDo from "./pages/WhatIDo.jsx";
 import BuyMeACoffeeWidget from "./components/Shared/BuyMeCoffee.jsx";
 import Submission from "./pages/Submission.jsx";
+import { CustomScroll } from "react-custom-scroll";
 
 function App() {
   return (
+    <CustomScroll heightRelativeToParent="100vh" handleClass="scrollb">
     <BrowserRouter>
       <ToastContainer
         position="top-right"
@@ -53,6 +55,7 @@ function App() {
         </ScrollToTop>
       </div>
     </BrowserRouter>
+    </CustomScroll>
   );
 }
 

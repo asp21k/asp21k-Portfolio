@@ -1,5 +1,5 @@
 import Fade from "react-reveal/Fade";
-// import React from "react";
+// import React from "react";gacy
 
 export default function WhatIDo() {
   return (
