@@ -1,11 +1,21 @@
 [
   {
-    "date": "",
-    "title": " Seeking Internship",
+    "date": "June 2024 - PRESENT",
+    "title": "Software Development Intern",
     "subtitle": "",
     "website": "",
     "details": [
-      "Seeking a internship position in the field of Software Engineering, React Development, or Full Stack Development."
+      "Worked on backend development, building a function library for inventory management using Django Rest Framework to streamline data registration for large-scale products."
+    ],
+    "techStack": ["Django Rest Framework","Angular","PostgreSQL"]
+  },
+  {
+    "date": "DEC 2023 - MAY 2024 ",
+    "title": "Founding Member - Operations and Full-Stack Development",
+    "subtitle": "",
+    "website": "https://pijet.org/",
+    "details": [
+     "Planned and coordinated the inception of an ISSN approved international research journal - PIJET. Led a team to design and develop the journal website under the Rapid Application Development framework. Interacted with several international professors and reviewers to form the editorial board for PIJET. Currently leading the development of an in-house Conference Management Tool to facilitate the complete blind review process for authors, editors, reviewers, and administrators."
     ],
     "techStack": ["MERN Stack"]
   }

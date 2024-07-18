@@ -4,10 +4,6 @@
     "url": "https://img.icons8.com/color/192/000000/c-plus-plus-logo.png"
   },
   {
-    "name": "Java",
-    "url": "https://img.icons8.com/color/192/000000/java-coffee-cup-logo.png"
-  },
-  {
     "name": "Python",
     "url": "https://img.icons8.com/color/192/000000/python.png"
   },
@@ -38,6 +34,10 @@
   {
     "name": "Node JS",
     "url": "https://img.icons8.com/color/48/ffffff/nodejs.png"
+  },
+  {
+    "name": "Django Rest FrameWork",
+    "url": "/django.svg"
   },
   {
     "name": "Express JS",
