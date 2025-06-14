@@ -1,21 +1,61 @@
 [
   {
-    "date": "June 2024 - PRESENT",
+    "date": "May 2023 - Present",
+    "title": "Backend Engineering Intern",
+    "subtitle": "Qualys",
+    "website": "",
+    "details": [
+      "Developed a microservice to generate synthetic data and produce it to Kafka for internal testing and validation.",
+      "Integrated the microservice into Kubernetes pods via a Jenkins CI/CD pipeline, streamlining deployment.",
+      "Utilized Elastic OpenSearch for efficient indexing and querying of service logs and metrics.",
+      "Implemented Swagger documentation and wrote JUnit test cases for robust validation in a Spring Boot application."
+    ],
+    "techStack": ["Spring Boot", "Kafka", "Kubernetes", "Jenkins", "Elastic OpenSearch", "Swagger", "JUnit"]
+  },
+  {
+    "date": "January 2025 - February 2025",
+    "title": "Fullstack Developer Intern",
+    "subtitle": "Quoppo Ventures",
+    "website": "",
+    "details": [
+      "Contributed to the development of various client platforms using Next.js, TypeScript, MongoDB, Node.js, and PostgreSQL to meet diverse business requirements.",
+      "Developed a generalized search engine for college-related information, utilizing vector search and indexing techniques to enhance search accuracy and speed.",
+      "Designed and implemented a web scraping tool leveraging existing technologies to collect and aggregate data required for building the search engine."
+    ],
+    "techStack": ["Next.js", "TypeScript", "MongoDB", "Node.js", "PostgreSQL"]
+  },
+  {
+    "date": "June 2024 - September 2024",
+    "title": "Software Development Intern",
+    "subtitle": "RhythmFlows Solutions",
+    "website": "",
+    "details": [
+      "Contributed to backend development of AGDI, an ERP platform for farmers and consumers to sell and purchase agricultural goods.",
+      "Pioneered a lightweight library using Django Rest Framework to streamline the stock inventory management for the system.",
+      "Developed REST API endpoints and reduced DQL and DML query usage by 20% using Django’s ORM."
+    ],
+    "techStack": ["Django Rest Framework", "PostgreSQL"]
+  },
+  {
+    "date": "June 2024 - September 2024",
     "title": "Software Development Intern",
     "subtitle": "",
     "website": "",
     "details": [
       "Worked on backend development, building a function library for inventory management using Django Rest Framework to streamline data registration for large-scale products."
     ],
-    "techStack": ["Django Rest Framework","Angular","PostgreSQL"]
+    "techStack": ["Django Rest Framework", "Angular", "PostgreSQL"]
   },
   {
-    "date": "DEC 2023 - MAY 2024 ",
+    "date": "December 2023 - May 2024",
     "title": "Founding Member - Operations and Full-Stack Development",
     "subtitle": "",
     "website": "https://pijet.org/",
     "details": [
-     "Planned and coordinated the inception of an ISSN approved international research journal - PIJET. Led a team to design and develop the journal website under the Rapid Application Development framework. Interacted with several international professors and reviewers to form the editorial board for PIJET. Currently leading the development of an in-house Conference Management Tool to facilitate the complete blind review process for authors, editors, reviewers, and administrators."
+      "Planned and coordinated the inception of an ISSN approved international research journal - PIJET.",
+      "Led a team to design and develop the journal website under the Rapid Application Development framework.",
+      "Interacted with several international professors and reviewers to form the editorial board for PIJET.",
+      "Currently leading the development of an in-house Conference Management Tool to facilitate the complete blind review process for authors, editors, reviewers, and administrators."
     ],
     "techStack": ["MERN Stack"]
   }

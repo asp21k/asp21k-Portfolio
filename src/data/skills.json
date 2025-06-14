@@ -1,27 +1,23 @@
 [
   {
-    "name": "C++",
-    "url": "https://img.icons8.com/color/192/000000/c-plus-plus-logo.png"
+    "name": "Next JS",
+    "url": "/nextjs-svgrepo-com.svg"
   },
   {
-    "name": "Python",
-    "url": "https://img.icons8.com/color/192/000000/python.png"
+    "name": "React JS",
+    "url": "https://img.icons8.com/color/192/000000/react-native.png"
   },
   {
-    "name": "HTML",
-    "url": "https://img.icons8.com/color/192/000000/html-5.png"
+    "name": "Node JS",
+    "url": "https://img.icons8.com/color/48/ffffff/nodejs.png"
   },
   {
-    "name": "CSS",
-    "url": "https://img.icons8.com/color/192/000000/css3.png"
+    "name": "Express JS",
+    "url": "/icons8-express-js-96.svg"
   },
   {
-    "name": "JavaScript",
-    "url": "https://img.icons8.com/color/192/000000/javascript.png"
-  },
-  {
-    "name": "MySQL",
-    "url": "https://img.icons8.com/fluency/192/000000/mysql-logo.png"
+    "name": "Django Rest FrameWork",
+    "url": "/django.svg"
   },
   {
     "name": "PostgreSQL",
@@ -32,44 +28,68 @@
     "url": "https://img.icons8.com/color/192/000000/mongodb.png"
   },
   {
-    "name": "Node JS",
-    "url": "https://img.icons8.com/color/48/ffffff/nodejs.png"
+    "name": "JavaScript",
+    "url": "https://img.icons8.com/color/192/000000/javascript.png"
   },
   {
-    "name": "Django Rest FrameWork",
-    "url": "/django.svg"
+    "name": "TypeScript",
+    "url": "https://img.icons8.com/color/48/typescript.png"
   },
   {
-    "name": "Express JS",
-    "url": "/icons8-express-js-96.svg"
+    "name": "Python",
+    "url": "https://img.icons8.com/color/192/000000/python.png"
   },
   {
-    "name": "React JS",
-    "url": "https://img.icons8.com/color/192/000000/react-native.png"
+    "name": "C++",
+    "url": "https://img.icons8.com/color/192/000000/c-plus-plus-logo.png"
   },
   {
-    "name": "Next JS",
-    "url": "/nextjs-svgrepo-com.svg"
+    "name": "Java",
+    "url": "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
+  },
+  {
+    "name": "HTML",
+    "url": "https://img.icons8.com/color/192/000000/html-5.png"
+  },
+  {
+    "name": "CSS",
+    "url": "https://img.icons8.com/color/192/000000/css3.png"
   },
   {
     "name": "Tailwind",
     "url": "https://img.icons8.com/fluency/48/tailwind_css.png"
   },
   {
-    "name": "Vite",
-    "url": "https://img.icons8.com/fluency/48/vite.png"
-  },
-  {
     "name": "Git",
     "url": "https://img.icons8.com/color/192/000000/git.png"
   },
   {
-    "name": "Vercel ",
+    "name": "Docker",
+    "url": "https://img.icons8.com/color/48/docker.png"
+  },
+  {
+    "name": "Postman",
+    "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png"
+  },
+  {
+    "name": "Figma",
+    "url": "https://img.icons8.com/color/192/000000/figma.png"
+  },
+  {
+    "name": "Vercel",
     "url": "/vercel-1.svg"
   },
   {
     "name": "Netlify",
     "url": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/384/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-color-tal-revivo.png"
+  },
+  {
+    "name": "Vite",
+    "url": "https://img.icons8.com/fluency/48/vite.png"
+  },
+  {
+    "name": "Adobe XD",
+    "url": "https://img.icons8.com/color/192/000000/adobe-xd.png"
   },
   {
     "name": "Photoshop",
@@ -78,21 +98,5 @@
   {
     "name": "Illustrator",
     "url": "https://img.icons8.com/color/192/000000/adobe-illustrator.png"
-  },
-  {
-    "name": "Premiere Pro",
-    "url": "https://img.icons8.com/color/192/000000/adobe-premiere-pro.png"
-  },
-  {
-    "name": "Adobe XD",
-    "url": "https://img.icons8.com/color/192/000000/adobe-xd.png"
-  },
-  {
-    "name": "Figma",
-    "url": "https://img.icons8.com/color/192/000000/figma.png"
-  },
-  {
-    "name": "After Effects",
-    "url": "https://img.icons8.com/color/48/adobe-after-effects--v1.png"
   }
 ]

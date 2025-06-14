@@ -12,7 +12,7 @@ export default function Hero() {
   //   setPhotoIndex(!photoIndex);
   // };
 
-  // Automatically change photo every 3 seconds
+  // // Automatically change photo every 3 seconds
   // setTimeout(togglePhoto, 4000);
 
   return (
@@ -75,7 +75,7 @@ export default function Hero() {
             {photoIndex === true && (
               <Fade>
                 <img
-                  src="/my.webp"
+                  src="/pfp2.jpeg"
                   className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
                   alt="Atharva pardeshi"
                   loading="lazy"
@@ -85,7 +85,7 @@ export default function Hero() {
             {photoIndex === false && (
               <Fade>
                 <img
-                  src="/pfp.webp"
+                  src="/pfp1.jpeg"
                   className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
                   alt="Atharva Pardeshi"
                   loading="lazy"
