@@ -75,8 +75,8 @@ export default function Hero() {
             {photoIndex === true && (
               <Fade>
                 <img
-                  src="/pfp2.jpeg"
-                  className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
+                  src="/my updated pic.png"
+                  className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl scale-y-125"
                   alt="Atharva pardeshi"
                   loading="lazy"
                 />
@@ -85,8 +85,8 @@ export default function Hero() {
             {photoIndex === false && (
               <Fade>
                 <img
-                  src="/pfp1.jpeg"
-                  className="mt-0 w-[30rem] overflow-hidden rounded-full  shadow-2xl"
+                  src="/my updated pic.png"
+                  className="mt-0 w-[30rem] overflow-hidden rounded-full shadow-2xl scale-125"
                   alt="Atharva Pardeshi"
                   loading="lazy"
                 />

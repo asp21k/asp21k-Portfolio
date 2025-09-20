@@ -1,7 +1,20 @@
 [
   {
-    "date": "May 2023 - Present",
-    "title": "Backend Engineering Intern",
+    "date":"September 2025  - Present",
+    "title": "Software Engineer",
+    "subtitle": "Qualys",
+    "website": "",
+    "details": [
+      "Developing and maintaining microservices for Enterprise TruRisk Management team , focusing on performance optimization and scalability.",
+      "Implementing robust logging and monitoring solutions using Elastic OpenSearch to ensure system reliability.",
+      "Collaborating with cross-functional teams to design and implement new features, enhancing user experience and functionality.",
+      "Participating in code reviews and contributing to the overall improvement of code quality and development practices."
+    ],
+    "techStack": ["Spring Boot", "Kafka", "Kubernetes", "Jenkins", "Elastic OpenSearch", "Swagger", "JUnit"]
+  },
+  {
+    "date": "March 2025 - September 2025",
+    "title": "Engineering Intern",
     "subtitle": "Qualys",
     "website": "",
     "details": [
@@ -10,7 +23,7 @@
       "Utilized Elastic OpenSearch for efficient indexing and querying of service logs and metrics.",
       "Implemented Swagger documentation and wrote JUnit test cases for robust validation in a Spring Boot application."
     ],
-    "techStack": ["Spring Boot", "Kafka", "Kubernetes", "Jenkins", "Elastic OpenSearch", "Swagger", "JUnit"]
+    "techStack": ["AirFlow","Spring Boot", "Kafka", "Kubernetes", "Jenkins", "Elastic OpenSearch", "Swagger", "JUnit"]
   },
   {
     "date": "January 2025 - February 2025",

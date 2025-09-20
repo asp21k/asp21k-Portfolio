@@ -1,5 +1,26 @@
 [
   {
+    "name": "Spring Boot",
+    "url": "https://img.icons8.com/color/48/spring-logo.png"
+  },
+  {
+    "name": "Kafka",
+    "url": "https://www.svgrepo.com/show/353950/kafka.svg",
+    "invert": true
+  },
+  {
+    "name": "OpenSearch",
+    "url": "https://us1.discourse-cdn.com/flex019/uploads/mauve_hedgehog/original/2X/2/25fe8fba39f6c125a9c4f09577e4bbde49c1d27d.png"
+  },
+  {
+    "name": "Kubernetes",
+    "url": "https://img.icons8.com/color/48/kubernetes.png"
+  },
+  {
+    "name": "AirFlow",
+    "url": "https://www.svgrepo.com/show/353380/airflow.svg"
+  },
+  {
     "name": "Next JS",
     "url": "/nextjs-svgrepo-com.svg"
   },
@@ -17,7 +38,8 @@
   },
   {
     "name": "Django Rest FrameWork",
-    "url": "/django.svg"
+    "url": "/django.svg",
+    "invert": true
   },
   {
     "name": "PostgreSQL",
