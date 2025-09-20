@@ -12,7 +12,7 @@ export default function Hackathons() {
         </div>
       </Fade>
       <Fade up>
-        <div className="flex flex-wrap w-full justify-center">
+        <div className="flex w-full flex-wrap justify-center">
           {hackathonsData.map((hackathon, index) => (
             <HackathonCard hackathon={hackathon} key={index} />
           ))}

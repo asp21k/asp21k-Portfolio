@@ -8,11 +8,11 @@ export default function Organizations() {
     <div className="mb-8 mt-20">
       <Fade up>
         <div>
-          <h1 className="heading-main">Organizations</h1>
+          <h1 className="heading-main">Extra Curricular</h1>
         </div>
       </Fade>
       <Fade up>
-        <div className="flex flex-wrap w-full">
+        <div className="flex w-full flex-wrap">
           {organizationsData.map((organization, index) => (
             <OrganizationCard organization={organization} key={index} />
           ))}

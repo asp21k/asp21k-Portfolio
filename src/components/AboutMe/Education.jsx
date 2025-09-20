@@ -6,7 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 
 import Fade from "react-reveal/Fade";
-import React from "react";
+
 import educationData from "../../data/education.json";
 
 export default function Education() {
@@ -17,13 +17,17 @@ export default function Education() {
           <h1 className="heading-main mb-8 hover:text-orange-600">Education</h1>
         </div>
       </Fade>
-      <VerticalTimeline>
+      <VerticalTimeline
+      >
         {educationData.map((education, index) => {
           return (
             <VerticalTimelineElement
               key={index}
-              className="vertical-timeline-element--education"
-              contentStyle={{ background: "rgba(15, 23, 42, 0.6)", color: "#fff",  }}
+              className="vertical-timeline-element--education  "
+              contentStyle={{
+                background: "rgba(15, 23, 42, 0.6)",
+                color: "#fff",
+              }}
               contentArrowStyle={{ borderRight: "7px solid  #1F2937" }}
               date={education.date}
               dateClassName="font-secondary font-medium text-white"
@@ -44,10 +48,10 @@ export default function Education() {
               <h3 className="mb-2 font-primary text-xl font-bold text-orange-600">
                 {education.title}
               </h3>
-              <h4 className="mb-4 font-secondary text-md font-normal text-white">
+              <h4 className="text-md mb-4 font-secondary font-normal text-white">
                 {education.subtitle}
               </h4>
-              <h6 className="font-secondary text-md font-normal text-gray-400">
+              <h6 className="text-md font-secondary font-normal text-gray-400">
                 {education.grade}
               </h6>
             </VerticalTimelineElement>

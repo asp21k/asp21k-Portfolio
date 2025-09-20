@@ -6,7 +6,7 @@ import { projectsData } from "../../data/projects";
 
 export default function Projects() {
   return (
-    <section className="mt-16 mx-3">
+    <section className="mx-3 mt-16">
       <Fade up>
         <h1 className="heading-tagline">TAKE A LOOK</h1>
         <div>
@@ -20,12 +20,11 @@ export default function Projects() {
         </div>
       </Fade>
       <Fade up>
-        <div className="flex flex-wrap w-full justify-center">
+        <div className="flex w-full flex-wrap justify-center">
           {projectsData.map((project, index) =>
-            index < 3 ? <ProjectCard project={project} key={index} /> : null
+            index < 3 ? <ProjectCard project={project} key={index} /> : null,
           )}
         </div>
-        
       </Fade>
     </section>
   );

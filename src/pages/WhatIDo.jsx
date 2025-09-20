@@ -1,59 +1,49 @@
 import Fade from "react-reveal/Fade";
-import React from "react";
 
 export default function WhatIDo() {
   return (
     <div className="my-6">
-      <div className="rounded-lg bg-slate-900/50 flex flex-col lg:flex-row">
-        <div className="p-8 w-full lg:w-1/2 border border-l-0 border-t-0 border-r-0 border-b-2 lg:border-b-0 lg:border-r-2 border-gray-700 border-dashed">
+      <div className="flex flex-col rounded-lg bg-slate-900/50 lg:flex-row">
+        {/* Designer Section */}
+        <div className="w-full border border-b-2 border-l-0 border-r-0 border-t-0 border-dashed border-gray-700 p-8 lg:w-1/2 lg:border-b-0 lg:border-r-2">
           <Fade up cascade>
             <div>
               <svg
-                className="h-28 w-28 fill-current text-orange-600 mx-auto"
+                className="mx-auto h-28 w-28 fill-current text-orange-600"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="7 7 50 50"
               >
-              <path d="M 11 17 A 1 1 0 0 0 10 18 L 10 22 A 1 1 0 0 0 11 23 L 15 23 A 1 1 0 0 0 16 22 L 16 21 L 23.320312 21 A 20 20 0 0 0 12.050781 38 L 11 38 A 1 1 0 0 0 10 39 L 10 43 A 1 1 0 0 0 11 44 L 15 44 A 1 1 0 0 0 16 43 L 16 39 A 1 1 0 0 0 15 38 L 14.039062 38 A 18 18 0 0 1 30.25 21.105469 L 20.123047 39.517578 A 1 1 0 0 0 21 41 A 5.19 5.19 0 0 1 26 45.111328 L 26 48 A 1 1 0 0 0 25 49 L 25 54 A 1 1 0 0 0 26 55 L 38 55 A 1 1 0 0 0 39 54 L 39 49 A 1 1 0 0 0 38 48 L 38 45.109375 A 5.147 5.147 0 0 1 43 41 A 1 1 0 0 0 43.876953 39.517578 L 33.748047 21.103516 A 18 18 0 0 1 49.949219 38 L 49 38 A 1 1 0 0 0 48 39 L 48 43 A 1 1 0 0 0 49 44 L 53 44 A 1 1 0 0 0 54 43 L 54 39 A 1 1 0 0 0 53 38 L 51.966797 38 A 20 20 0 0 0 40.679688 21 L 48 21 L 48 22 A 1 1 0 0 0 49 23 L 53 23 A 1 1 0 0 0 54 22 L 54 18 A 1 1 0 0 0 53 17 L 49 17 A 1 1 0 0 0 48 18 L 48 19 L 16 19 L 16 18 A 1 1 0 0 0 15 17 L 11 17 z M 12 19 L 14 19 L 14 21 L 12 21 L 12 19 z M 50 19 L 52 19 L 52 21 L 50 21 L 50 19 z M 31 23.892578 L 31 35.128906 A 4 4 0 0 0 32 43 A 4 4 0 0 0 36 39 A 4 4 0 0 0 33 35.128906 L 33 23.892578 L 41.400391 39.162109 A 7.3 7.3 0 0 0 36.019531 44.800781 A 1 1 0 0 0 36 45 L 36 48 L 28 48 L 28 45 A 1 1 0 0 0 27.980469 44.800781 A 7.3 7.3 0 0 0 22.599609 39.166016 L 31 23.892578 z M 32 37 A 2 2 0 0 1 34 39 A 2 2 0 1 1 32 37 z M 12 40 L 14 40 L 14 42 L 12 42 L 12 40 z M 50 40 L 52 40 L 52 42 L 50 42 L 50 40 z M 27 50 L 37 50 L 37 53 L 27 53 L 27 50 z"></path>
+                <path d="M 11 17 A 1 1 0 0 0 10 18 L 10 22 A 1 1 0 0 0 11 23 L 15 23 A 1 1 0 0 0 16 22 L 16 21 L 23.320312 21 A 20 20 0 0 0 12.050781 38 L 11 38 A 1 1 0 0 0 10 39 L 10 43 A 1 1 0 0 0 11 44 L 15 44 A 1 1 0 0 0 16 43 L 16 39 A 1 1 0 0 0 15 38 L 14.039062 38 A 18 18 0 0 1 30.25 21.105469 L 20.123047 39.517578 A 1 1 0 0 0 21 41 A 5.19 5.19 0 0 1 26 45.111328 L 26 48 A 1 1 0 0 0 25 49 L 25 54 A 1 1 0 0 0 26 55 L 38 55 A 1 1 0 0 0 39 54 L 39 49 A 1 1 0 0 0 38 48 L 38 45.109375 A 5.147 5.147 0 0 1 43 41 A 1 1 0 0 0 43.876953 39.517578 L 33.748047 21.103516 A 18 18 0 0 1 49.949219 38 L 49 38 A 1 1 0 0 0 48 39 L 48 43 A 1 1 0 0 0 49 44 L 53 44 A 1 1 0 0 0 54 43 L 54 39 A 1 1 0 0 0 53 38 L 51.966797 38 A 20 20 0 0 0 40.679688 21 L 48 21 L 48 22 A 1 1 0 0 0 49 23 L 53 23 A 1 1 0 0 0 54 22 L 54 18 A 1 1 0 0 0 53 17 L 49 17 A 1 1 0 0 0 48 18 L 48 19 L 16 19 L 16 18 A 1 1 0 0 0 15 17 L 11 17 z M 12 19 L 14 19 L 14 21 L 12 21 L 12 19 z M 50 19 L 52 19 L 52 21 L 50 21 L 50 19 z M 31 23.892578 L 31 35.128906 A 4 4 0 0 0 32 43 A 4 4 0 0 0 36 39 A 4 4 0 0 0 33 35.128906 L 33 23.892578 L 41.400391 39.162109 A 7.3 7.3 0 0 0 36.019531 44.800781 A 1 1 0 0 0 36 45 L 36 48 L 28 48 L 28 45 A 1 1 0 0 0 27.980469 44.800781 A 7.3 7.3 0 0 0 22.599609 39.166016 L 31 23.892578 z M 32 37 A 2 2 0 0 1 34 39 A 2 2 0 1 1 32 37 z M 12 40 L 14 40 L 14 42 L 12 42 L 12 40 z M 50 40 L 52 40 L 52 42 L 50 42 L 50 40 z M 27 50 L 37 50 L 37 53 L 27 53 L 27 50 z"></path>
               </svg>
               <div>
-                <h1 className="mt-8 font-primary text-4xl font-bold text-white text-center transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+                <h1 className="mt-8 text-center font-primary text-4xl font-bold text-white transition duration-500 ease-in-out hover:scale-105 hover:text-yellow-400">
                   Designer
                 </h1>
               </div>
-              <h3 className="mt-4 font-secondary text-lg font-normal text-gray-400 text-center">
-                I like to design beautiful things that are easy to use.
+              <h3 className="mt-4 text-center font-secondary text-lg font-normal text-gray-400">
+                I enjoy crafting modern, intuitive designs with a focus on usability and accessibility.
               </h3>
-              <h3 className="mt-12 font-secondary text-lg font-medium text-orange-600 text-center">
+              <h3 className="mt-12 text-center font-secondary text-lg font-medium text-orange-600">
                 Things I Design:
               </h3>
-              <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-                UI/UX, Web and Mobile Design, Static Graphic Design
+              <p className="mt-2 text-center font-secondary text-lg font-normal text-gray-400">
+                UI/UX for Dashboards, Web Interfaces, Event Portals
               </p>
-              <h3 className="mt-12 font-secondary text-lg font-medium text-orange-600 text-center">
+              <h3 className="mt-12 text-center font-secondary text-lg font-medium text-orange-600">
                 Design Tools:
               </h3>
-              <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-                Adobe Photoshop
-              </p>
-              <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-                Adobe Illustrator
-              </p>
-              <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-                Figma
-              </p>
-              <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-                Adobe XD
-              </p>
-              <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-                Adobe Premiere Pro
+              <p className="mt-2 text-center font-secondary text-lg font-normal text-gray-400">
+                Figma, Adobe XD, Photoshop, Illustrator, Premiere Pro
               </p>
             </div>
           </Fade>
         </div>
+
+        {/* Developer Section */}
         <Fade up cascade>
-          <div className="p-8 w-full lg:w-1/2">
+          <div className="w-full p-8 lg:w-1/2">
             <svg
-              className="h-28 w-28 fill-current text-orange-600 mx-auto"
+              className="mx-auto h-28 w-28 fill-current text-orange-600"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
             >
@@ -61,37 +51,34 @@ export default function WhatIDo() {
             </svg>
             <Fade up>
               <div>
-                <h1 className="mt-8 font-primary text-4xl font-bold text-white text-center transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+                <h1 className="mt-8 text-center font-primary text-4xl font-bold text-white transition duration-500 ease-in-out hover:scale-105 hover:text-yellow-400">
                   Developer
                 </h1>
               </div>
             </Fade>
-            <h3 className="mt-4 font-secondary text-lg font-normal text-gray-400 text-center">
-              I like to code things from scratch and bring ideas to life.
+            <h3 className="mt-4 text-center font-secondary text-lg font-normal text-gray-400">
+              I specialize in building robust backend systems, full-stack apps, and scalable web solutions.
             </h3>
-            <h3 className="mt-12 font-secondary text-lg font-medium text-orange-600 text-center">
-              Languages I Speak:
+            <h3 className="mt-12 text-center font-secondary text-lg font-medium text-orange-600">
+              Languages I Use:
             </h3>
-            <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              C++, Python, Java, JavaScript, HTML, CSS, SQL. 
+            <p className="mt-2 text-center font-secondary text-lg font-normal text-gray-400">
+              TypeScript, JavaScript, Python, Java, C++, SQL
             </p>
-            <h3 className="mt-12 font-secondary text-lg font-medium text-orange-600 text-center">
-              Dev Tools:
+            <h3 className="mt-12 text-center font-secondary text-lg font-medium text-orange-600">
+              Technologies & Tools:
             </h3>
-            <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              Visual Studio Code
+            <p className="mt-2 text-center font-secondary text-lg font-normal text-gray-400">
+              Node.js, Spring Boot, Next.js, React, Django Rest Framework
             </p>
-            <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              React
+            <p className="mt-2 text-center font-secondary text-lg font-normal text-gray-400">
+              PostgreSQL, MongoDB, Firebase, Redis
             </p>
-            <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              MySQL
+            <p className="mt-2 text-center font-secondary text-lg font-normal text-gray-400">
+              Kafka, Docker, Kubernetes, Elasticsearch, Swagger
             </p>
-            <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              Git
-            </p>
-            <p className="mt-2 font-secondary text-lg font-normal text-gray-400 text-center">
-              Github
+            <p className="mt-2 text-center font-secondary text-lg font-normal text-gray-400">
+              Git, GitHub, Postman, Prisma, VS Code
             </p>
           </div>
         </Fade>

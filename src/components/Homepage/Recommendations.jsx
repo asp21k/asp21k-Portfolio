@@ -13,7 +13,7 @@ export default function Recommendations() {
 
   const clickHandler = (event) => {
     setCurrent(
-      recommendationsData[event.target.getAttribute("data-recommendation")]
+      recommendationsData[event.target.getAttribute("data-recommendation")],
     );
     setActive(parseInt(event.target.getAttribute("data-recommendation")));
   };
@@ -39,7 +39,7 @@ export default function Recommendations() {
   };
 
   return (
-    <div className="mt-20 mx-3">
+    <div className="mx-3 mt-20">
       <Fade up>
         <h1 className="heading-tagline">WHAT MY SENIORS SAY</h1>
         <div>
@@ -61,9 +61,9 @@ export default function Recommendations() {
       <Fade up>
         <div>
           {recommendationsData.length > 1 ? (
-            <div className="flex flex-row justify-between py-4 mt-2">
+            <div className="mt-2 flex flex-row justify-between py-4">
               <FaChevronLeft
-                className="h-6 w-6 cursor-pointer transition duration-300 ease-in-out text-gray-300 hover:text-yellow-400"
+                className="h-6 w-6 cursor-pointer text-gray-300 transition duration-300 ease-in-out hover:text-yellow-400"
                 onClick={() => {
                   handlePrev();
                 }}
@@ -74,10 +74,10 @@ export default function Recommendations() {
               <div className="flex flex-row justify-center space-x-2">
                 {recommendationsData.map((recommendation, index) => (
                   <span
-                    className={`h-4 w-4 rounded-full cursor-pointer transition duration-300 ease-in-out ${
+                    className={`h-4 w-4 cursor-pointer rounded-full transition duration-300 ease-in-out ${
                       index === active
                         ? `bg-gray-300 hover:bg-yellow-400`
-                        : `border-gray-300 hover:border-yellow-400 border`
+                        : `border border-gray-300 hover:border-yellow-400`
                     }`}
                     onClick={(event) => clickHandler(event)}
                     data-recommendation={index}
@@ -87,20 +87,20 @@ export default function Recommendations() {
               </div>
 
               <FaChevronRight
-                className="h-6 w-6 cursor-pointer transition duration-300 ease-in-out text-gray-300 hover:text-yellow-400"
+                className="h-6 w-6 cursor-pointer text-gray-300 transition duration-300 ease-in-out hover:text-yellow-400"
                 onClick={handleNext}
               >
                 Next
               </FaChevronRight>
             </div>
           ) : (
-            <div className="flex flex-row justify-center space-x-2 py-4 mt-2">
+            <div className="mt-2 flex flex-row justify-center space-x-2 py-4">
               {recommendationsData.map((recommendation, index) => (
                 <span
-                  className={`h-4 w-4 rounded-full cursor-pointer transition duration-300 ease-in-out ${
+                  className={`h-4 w-4 cursor-pointer rounded-full transition duration-300 ease-in-out ${
                     index === active
                       ? `bg-gray-300 hover:bg-yellow-400`
-                      : `border-gray-300 hover:border-yellow-400 border`
+                      : `border border-gray-300 hover:border-yellow-400`
                   }`}
                   onClick={(event) => clickHandler(event)}
                   data-recommendation={index}

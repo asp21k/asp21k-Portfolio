@@ -2,6 +2,7 @@ import "./App.css";
 import "react-toastify/dist/ReactToastify.min.css";
 
 import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
@@ -14,6 +15,8 @@ import Resume from "./pages/Resume";
 import ScrollToTop from "./components/Shared/ScrollToTop";
 import { ToastContainer } from "react-toastify";
 import WhatIDo from "./pages/WhatIDo.jsx";
+import BuyMeACoffeeWidget from "./components/Shared/BuyMeCoffee.jsx";
+import Submission from "./pages/Submission.jsx";
 
 function App() {
   return (
@@ -30,9 +33,12 @@ function App() {
         pauseOnHover
         theme="dark"
       />
-      <div className="w-full p-2 md:w-full mx-auto bg-black ">
+      <div className="mx-auto w-full bg-black p-2 md:w-full ">
         <ScrollToTop>
-          <NavBar />
+          <BuyMeACoffeeWidget />
+          <Fade top>
+            <NavBar />
+          </Fade>
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/resume" element={<Resume />} />
@@ -41,6 +47,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/messages" element={<Messages />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/submission" element={<Submission />} />
           </Routes>
           <Footer />
         </ScrollToTop>
